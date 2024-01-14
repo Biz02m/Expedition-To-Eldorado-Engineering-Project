@@ -1,0 +1,425 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pl' Physical Memory: 15713 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+51951
+Successfully changed project path to: C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado
+C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28824] Host "[IP] 172.21.96.1 [Port] 0 [Flags] 2 [Guid] 4273320120 [EditorId] 4273320120 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GIF448M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28824] Host "[IP] 172.21.96.1 [Port] 0 [Flags] 2 [Guid] 4273320120 [EditorId] 4273320120 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GIF448M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 11.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005977 seconds.
+- Loaded All Assemblies, in  0.353 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.338 seconds
+Domain Reload Profiling: 688ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (338ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (267ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.592 seconds
+Refreshing native plugins compatible for Editor in 5.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1302ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (368ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (146ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (715ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (561ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3190 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (56.9 KB). Loaded Objects now: 3656.
+Memory consumption went from 124.6 MB to 124.5 MB.
+Total: 3.468200 ms (FindLiveObjects: 0.213200 ms CreateObjectMapping: 0.085800 ms MarkObjects: 3.074500 ms  DeleteObjects: 0.093900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5351.869572 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Square/Wood_Square_basecolor.png
+  artifactKey: Guid(dc71b8e9c1c2dfc44a3078207aa60d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Textures/Square/Wood_Square_basecolor.png using Guid(dc71b8e9c1c2dfc44a3078207aa60d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a3b5f7c8a54fcf55a69704525e0eb6') in 0.046396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.300804 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Square/Wood_Square_height.png
+  artifactKey: Guid(b6fcad0043a441d4ebd9dc3b582b9741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Textures/Square/Wood_Square_height.png using Guid(b6fcad0043a441d4ebd9dc3b582b9741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0d9206ab10351950173020b9c73b02') in 0.009929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Square/Wood_Square_metallic.png
+  artifactKey: Guid(afb727857a3537445b102d9e816bd11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Textures/Square/Wood_Square_metallic.png using Guid(afb727857a3537445b102d9e816bd11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5875cbdf9893cf21731a5a8fef0c2efe') in 0.009019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 64.272406 seconds.
+  path: Assets/Stylized Wood Textures/Demo/Demo.unity
+  artifactKey: Guid(ab0d50abf92937d42ac6997e0ff3f5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Demo/Demo.unity using Guid(ab0d50abf92937d42ac6997e0ff3f5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec428488e1da08222f1d30b63d0af71') in 0.000697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.387553 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7bfc082c00a66949ba595e23a90eec') in 0.000609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 218.033686 seconds.
+  path: Assets/Materials/Env.prefab
+  artifactKey: Guid(82fe6a3ad26524f4caee9c4cb37cac8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Env.prefab using Guid(82fe6a3ad26524f4caee9c4cb37cac8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790ac34a6786bc4720a1bd531773fe7f') in 0.071211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 436.084449 seconds.
+  path: Assets/Low Poly Hexagons
+  artifactKey: Guid(de78535f19ba92c4c872736884d94b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Hexagons using Guid(de78535f19ba92c4c872736884d94b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468415f33565a1b7f0f8103af85382bc') in 0.000656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.944732 seconds.
+  path: Assets/Low Poly Hexagons/Assets
+  artifactKey: Guid(5dc68b1459814b64c8317fbda545f2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Hexagons/Assets using Guid(5dc68b1459814b64c8317fbda545f2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effd2243bd6699d371dfe474a8ab49c4') in 0.000555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.686624 seconds.
+  path: Assets/Low Poly Hexagons/Assets/Textures
+  artifactKey: Guid(a722a456da6b23542ba6fc0fda3f5bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Hexagons/Assets/Textures using Guid(a722a456da6b23542ba6fc0fda3f5bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06884ed1bd11067f551aa6c3771a347') in 0.000493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081539 seconds.
+  path: Assets/Low Poly Hexagons/Assets/Textures/HexagonsShared.png
+  artifactKey: Guid(3c9ddbf33d21b404fba476535adde435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Hexagons/Assets/Textures/HexagonsShared.png using Guid(3c9ddbf33d21b404fba476535adde435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a150bb3903fce4f8f7e3367a282a2c6') in 0.034186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.971160 seconds.
+  path: Assets/Low Poly Hexagons/Assets/Prefabs
+  artifactKey: Guid(975b5071d2fb57b4e9292c99153ee364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Hexagons/Assets/Prefabs using Guid(975b5071d2fb57b4e9292c99153ee364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c938784de6b5eb9e3e5a98fc4ce2ed3e') in 0.000626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.583935 seconds.
+  path: Assets/Low Poly Hexagons/Assets/Prefabs/Hexagons
+  artifactKey: Guid(eee9557aba7910842adfda3b0d312580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Hexagons/Assets/Prefabs/Hexagons using Guid(eee9557aba7910842adfda3b0d312580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f19cd5190e3930c27340dc62b02c7c7') in 0.000482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2652.790996 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0
+  artifactKey: Guid(2bf531b8a40fdc6428a0c8fa1d69306b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0 using Guid(2bf531b8a40fdc6428a0c8fa1d69306b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd8012a368da11b8574c6585399cc89') in 0.001100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058766 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/Overview.png
+  artifactKey: Guid(003ba4c78a7ce2149bb44264b9a601bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/Overview.png using Guid(003ba4c78a7ce2149bb44264b9a601bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37efe70d7cdbb373166d9cd3175862d7') in 0.033884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.923446 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/KayKit Brand Resouces
+  artifactKey: Guid(ba2062fdbdc506c499421bc90e16e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/KayKit Brand Resouces using Guid(ba2062fdbdc506c499421bc90e16e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993c7d354529478a0c7fdca4dde66e47') in 0.000923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.526405 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/KayKit Brand Resouces/KayKit_logo.png
+  artifactKey: Guid(659c4615d9dedf1499817abb004947c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/KayKit Brand Resouces/KayKit_logo.png using Guid(659c4615d9dedf1499817abb004947c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff78ac55314f1269246159980da300d4') in 0.009944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.467880 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/KayKit Brand Resouces/KayKit_logoVariation_black.png
+  artifactKey: Guid(980d9daf05369bb4d9a52600d719d6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/KayKit Brand Resouces/KayKit_logoVariation_black.png using Guid(980d9daf05369bb4d9a52600d719d6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b99d195f4de39fe3263d65b575779e') in 0.008537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/KayKit Brand Resouces/KayKit_logoVariation_red.png
+  artifactKey: Guid(bc6920acd7ab03c42abc92b745a38ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/KayKit Brand Resouces/KayKit_logoVariation_red.png using Guid(bc6920acd7ab03c42abc92b745a38ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99f76366fd6b9b414f9dc711418309f') in 0.008448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/KayKit Brand Resouces/KayKit_logo_white.png
+  artifactKey: Guid(d9a5d8fc01199b44a9f4a7ef81397322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/KayKit Brand Resouces/KayKit_logo_white.png using Guid(d9a5d8fc01199b44a9f4a7ef81397322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c24bf70d23f4c9e07b6a5684954c667') in 0.008524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.593216 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/Models
+  artifactKey: Guid(a61157f121b6cdc4abe3cdb07b20ae97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/Models using Guid(a61157f121b6cdc4abe3cdb07b20ae97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4039013e51e080b7d932e448e577f48a') in 0.000648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.987955 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/Models/tiles
+  artifactKey: Guid(24099da5b0c5bdd4c90f2a5befbd4c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/Models/tiles using Guid(24099da5b0c5bdd4c90f2a5befbd4c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98933219d3991820b8a15a4822eb26a8') in 0.000610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.752027 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_detail.obj
+  artifactKey: Guid(51648fbab161b7b4eb295426b9d1fd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_detail.obj using Guid(51648fbab161b7b4eb295426b9d1fd67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2278938bb51ac843b49efa9a9b7733fe') in 0.075164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadC.obj
+  artifactKey: Guid(307d1b9caa8f2314b9eba06f1c435cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadC.obj using Guid(307d1b9caa8f2314b9eba06f1c435cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767f21e05881678eaa456e77467cd37e') in 0.024595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadG.obj
+  artifactKey: Guid(2faf6dc4be8b33a40bcddee1fac070d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadG.obj using Guid(2faf6dc4be8b33a40bcddee1fac070d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a4ed1c8af5955f269dbe2272491f42') in 0.022621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadD.obj
+  artifactKey: Guid(5b3c367cf825b944c9802865326d2907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadD.obj using Guid(5b3c367cf825b944c9802865326d2907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a781bf3eb290d24faac04440b5850b2') in 0.022065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadD_detail.obj
+  artifactKey: Guid(7fc3b5d880680a148bf08614cfc444be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadD_detail.obj using Guid(7fc3b5d880680a148bf08614cfc444be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88833b74a92af40456803fde3e6ae9a2') in 0.027910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadC_detail.obj
+  artifactKey: Guid(261195c2bef2dd644bb1d047aa07f3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadC_detail.obj using Guid(261195c2bef2dd644bb1d047aa07f3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11871122a7022bb7fa0c29f3e1b6f54') in 0.029492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadJ.obj
+  artifactKey: Guid(53841600495f0cd4bbcab87ed2304fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadJ.obj using Guid(53841600495f0cd4bbcab87ed2304fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51428eb1656d41bd0539dff2de98d239') in 0.025191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadB_detail.obj
+  artifactKey: Guid(fd7390b15506a634c92d053e35525bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadB_detail.obj using Guid(fd7390b15506a634c92d053e35525bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04b833eb2efd2ce09ac2548e8137f6c') in 0.027745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadF.obj
+  artifactKey: Guid(26da44320ede4e24c9369b038a2fa75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_forest_roadF.obj using Guid(26da44320ede4e24c9369b038a2fa75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad558cf3d20affd5046635189f6af0c1') in 0.026838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Operacja We/Wy zosta³a przerwana z powodu zakoñczenia w¹tku lub ¿¹dania aplikacji.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
