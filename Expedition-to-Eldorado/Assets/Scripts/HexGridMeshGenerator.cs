@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,7 @@ public class HexGridMeshGenerator : MonoBehaviour
 {
     [field:SerializeField] public LayerMask gridLayer { get; private set; }
     [field: SerializeField] public HexGrid hexGrid { get; private set; }
+    //public Transform explosionTest;
 
     private void Awake()
     {
@@ -18,6 +20,20 @@ public class HexGridMeshGenerator : MonoBehaviour
         {
             Debug.LogError("HexGridMeshGenerator could not find a HexGrid component in its parent or itself.");
         }
+    }
+
+    private void OnEnable()
+    {
+        MouseController.instance.OnLeftMouseClick += OnLeftMouseClick;
+        MouseController.instance.OnRightMouseClick += OnRightMouseClick;
+    }
+
+    
+
+    private void OnDisable()
+    {
+        MouseController.instance.OnLeftMouseClick -= OnLeftMouseClick;
+        MouseController.instance.OnRightMouseClick -= OnRightMouseClick;
     }
 
     public void CreateHexMesh()
@@ -116,5 +132,25 @@ public class HexGridMeshGenerator : MonoBehaviour
             }
         }
         return 0;
+    }
+
+    private void OnLeftMouseClick(RaycastHit hit)
+    {
+        Debug.Log("Hit object: " + hit.transform.name + " at position " + hit.point);
+        float localX = hit.point.x - hit.transform.position.x;
+        float localZ = hit.point.z - hit.transform.position.z;
+        // Debug.Log("Hex position: " + HexMetrics.CoordinateToAxial(localX, localZ, grid.HexSize, grid.Orientation));
+        Debug.Log("Axial position: " + HexMetrics.CoordinateToAxial(localX, localZ, hexGrid.HexSize, hexGrid.Orientation));
+    }
+
+    private void OnRightMouseClick(RaycastHit hit)
+    {
+        float localX = hit.point.x - hit.transform.position.x;
+        float localZ = hit.point.z - hit.transform.position.z;
+
+        Vector2 location = HexMetrics.CoordinateToAxial(localX, localZ, hexGrid.HexSize, hexGrid.Orientation);
+        Vector3 center = HexMetrics.Center(hexGrid.HexSize, (int)location.x, (int)location.y, hexGrid.Orientation);
+        Debug.Log("Right clicked on Hex: " + location);
+        //Instantiate(explosionTest, center, Quaternion.identity);
     }
 }

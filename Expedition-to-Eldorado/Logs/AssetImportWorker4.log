@@ -1,0 +1,739 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pl' Physical Memory: 15713 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+54479
+Successfully changed project path to: C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado
+C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [44668] Host "[IP] 172.21.96.1 [Port] 0 [Flags] 2 [Guid] 3869747025 [EditorId] 3869747025 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GIF448M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [44668] Host "[IP] 172.21.96.1 [Port] 0 [Flags] 2 [Guid] 3869747025 [EditorId] 3869747025 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GIF448M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 10.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005156 seconds.
+- Loaded All Assemblies, in  0.339 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.290 seconds
+Domain Reload Profiling: 626ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (102ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (290ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.587 seconds
+Refreshing native plugins compatible for Editor in 4.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1297ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (365ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (716ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (451ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3669 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (169.7 KB). Loaded Objects now: 4134.
+Memory consumption went from 144.5 MB to 144.3 MB.
+Total: 3.460500 ms (FindLiveObjects: 0.254500 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.926000 ms  DeleteObjects: 0.160300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GameHandler.cs: 5fcf90148d59c5ca0ca4de5a62128128 -> 2fa11ef8cfcf61e056c4b3c6ddd290d0
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ScreenshotHandler.cs: 17f7dacab96692a4fc725c513c116266 -> 51e7ad3f10aeba76229ba1d8707eea57
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52075.339717 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Ground/EA04_Env_Terrain_Desert_01a_PRE.prefab
+  artifactKey: Guid(0331db742c9d04043b9ba01afcccf73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Ground/EA04_Env_Terrain_Desert_01a_PRE.prefab using Guid(0331db742c9d04043b9ba01afcccf73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d52517e7deebeb4758424a26ccb9581') in 0.097245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 4.772420 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Wehicule/Raft/EA04_Wehicule_Raft_01a_PRE.prefab
+  artifactKey: Guid(310b346be14406a469f36ea6987c701d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Wehicule/Raft/EA04_Wehicule_Raft_01a_PRE.prefab using Guid(310b346be14406a469f36ea6987c701d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81f5a31abaaf9a83bddae17bebb8b61') in 0.264659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 231.383054 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat
+  artifactKey: Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat using Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924bc4b21f42892a48c7a1eff703e016') in 0.027643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 70.300032 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert
+  artifactKey: Guid(1fb8799df51c6ee43b47270e8b1612b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert using Guid(1fb8799df51c6ee43b47270e8b1612b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff8832d23b0d9291cf67a23dfba549c') in 0.000581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.017716 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Materials
+  artifactKey: Guid(866a7132c671f474e8c2e84083bbc069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Materials using Guid(866a7132c671f474e8c2e84083bbc069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aa7410bed1f8526fee908f685d1ca1') in 0.000472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053968 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Materials/Material_decal.mat
+  artifactKey: Guid(a8c41fb0606ae5b4faf3131c8a44f037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Materials/Material_decal.mat using Guid(a8c41fb0606ae5b4faf3131c8a44f037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd87615bb71cb7b7899d5c16bb5712c2') in 0.009329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.334674 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Materials/Material_standard.mat
+  artifactKey: Guid(fe085730854a47e41afee6d0ec00eb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Materials/Material_standard.mat using Guid(fe085730854a47e41afee6d0ec00eb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94684a21d15168901c65e77f33a6793') in 0.061815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Materials/Material_syntetic.mat
+  artifactKey: Guid(f36a10a58c89b6149b77988095b08544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Materials/Material_syntetic.mat using Guid(f36a10a58c89b6149b77988095b08544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341442d39b2ef85164c3f58dbaa5a060') in 0.070901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.644621 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Overview.png
+  artifactKey: Guid(003ba4c78a7ce2149bb44264b9a601bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Overview.png using Guid(003ba4c78a7ce2149bb44264b9a601bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dc8b3d63c697d9404b4479329c518d') in 0.093703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.532702 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Materials/HexagonsShared.mat
+  artifactKey: Guid(cf051fba995609b459f0eb4baf4bb478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Materials/HexagonsShared.mat using Guid(cf051fba995609b459f0eb4baf4bb478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace03a4eb9c8ca57752af22d04f5850a') in 0.093792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.606995 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials
+  artifactKey: Guid(3285be480b55bcc41af2063e1d870bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials using Guid(3285be480b55bcc41af2063e1d870bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f724c67398391dd557c407cf948a39') in 0.000633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.078506 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials/CloudMat.mat
+  artifactKey: Guid(51adf49c828af4b42b49cd399cd49b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials/CloudMat.mat using Guid(51adf49c828af4b42b49cd399cd49b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aedec18c6d430d1971323d377eb5b4a') in 0.005982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials/FireParticleAddMat.mat
+  artifactKey: Guid(4d013014c63f66349b847f12173289d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials/FireParticleAddMat.mat using Guid(4d013014c63f66349b847f12173289d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbcafe8676044ecf589825b0194d11f') in 0.092766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials/Flower2Mat.mat
+  artifactKey: Guid(1c5a335489a263f458754f8cde45f221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials/Flower2Mat.mat using Guid(1c5a335489a263f458754f8cde45f221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607e8d9388fd361da8c43e03fe9429fb') in 0.007630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials/WaterMat.mat
+  artifactKey: Guid(541d89427b42b4040b80b215bdd9a767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials/WaterMat.mat using Guid(541d89427b42b4040b80b215bdd9a767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d617b94be63749d50871e080b8585e1') in 0.032244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials/Mushroom3Mat.mat
+  artifactKey: Guid(23f92ab09af350146b1d22ca67ed7887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials/Mushroom3Mat.mat using Guid(23f92ab09af350146b1d22ca67ed7887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfbb2f61775f0f7d18f9150584eaa4d') in 0.011632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials/TreeGreen1Mat.mat
+  artifactKey: Guid(cf7b2a2a4b5c2bb409c794db9d64ff3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials/TreeGreen1Mat.mat using Guid(cf7b2a2a4b5c2bb409c794db9d64ff3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd192da6d201f94809c1ce6360cbc75') in 0.006912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials/Wood2Mat.mat
+  artifactKey: Guid(983007e3e230f954187baf11f58a929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials/Wood2Mat.mat using Guid(983007e3e230f954187baf11f58a929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75784b081caf91d7cb81f77f1ad80752') in 0.007139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials/PlantMat.mat
+  artifactKey: Guid(49f2ecb08a0c38140b335a0a1f7f66f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials/PlantMat.mat using Guid(49f2ecb08a0c38140b335a0a1f7f66f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400bca49440a2425e3035cb9d5b90064') in 0.006130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials/TreeOrangeMat.mat
+  artifactKey: Guid(33535d2d31f89e846b6ec7c60219cb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials/TreeOrangeMat.mat using Guid(33535d2d31f89e846b6ec7c60219cb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a4d25c82f2fd14f98d12c8079e572a') in 0.008448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials/TreeYellowMat.mat
+  artifactKey: Guid(1b3799f72f9aa654d9f7a3787feef4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials/TreeYellowMat.mat using Guid(1b3799f72f9aa654d9f7a3787feef4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a6ce83c6449fbf3c9517ed49d21d23') in 0.007170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials/Flower4Mat.mat
+  artifactKey: Guid(b043653feafde9a498c209b65e6b09a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials/Flower4Mat.mat using Guid(b043653feafde9a498c209b65e6b09a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132a567f4490833c5f92090f8a48081a') in 0.006630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Materials/EmissionYellowMat.mat
+  artifactKey: Guid(a23517422c44285409996ebf0584f793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Materials/EmissionYellowMat.mat using Guid(a23517422c44285409996ebf0584f793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa62ce70fa5bb39f433589b3e573c8a') in 0.008094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 45.508683 seconds.
+  path: Assets/ScriptableObjects/TerrainTypes/TerrainType 1.asset
+  artifactKey: Guid(5d1d4aab8ba6c2b4aa58d4dc896fcdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/TerrainTypes/TerrainType 1.asset using Guid(5d1d4aab8ba6c2b4aa58d4dc896fcdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb3d500f52fe694522c4bff5fea5ebc') in 0.001473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 41.504173 seconds.
+  path: Assets/Prefabs/River.prefab
+  artifactKey: Guid(ae27e625430989e4dad807020d08fed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/River.prefab using Guid(ae27e625430989e4dad807020d08fed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a645d44b24127e798f8cdbb7478a686') in 0.004703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.131630 seconds.
+  path: Assets/Prefabs/River.asset
+  artifactKey: Guid(b53cacbec2ed916428399dbcf8b6bc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/River.asset using Guid(b53cacbec2ed916428399dbcf8b6bc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f18824db5d2f3500d4e7ad512999072') in 0.041693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 77.048319 seconds.
+  path: Assets/DownloadedAssets/Demo
+  artifactKey: Guid(f087f312341228d4ca75941578c41367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Demo using Guid(f087f312341228d4ca75941578c41367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01a47647833cf12df5af701c178ba23') in 0.000614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.681961 seconds.
+  path: Assets/DownloadedAssets/Demo/Low poly package
+  artifactKey: Guid(408855fa5f661ae46a91ae12a849d02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Demo/Low poly package using Guid(408855fa5f661ae46a91ae12a849d02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8731b4ba2790925f3a34cb55d5d0c8c5') in 0.000572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.652564 seconds.
+  path: Assets/DownloadedAssets/Demo/Low poly package/Prefabs
+  artifactKey: Guid(dad12d1511a220f468e137cfef1eaf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Demo/Low poly package/Prefabs using Guid(dad12d1511a220f468e137cfef1eaf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72293f17c6e347c709ade4633afefcc') in 0.000622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 280.827595 seconds.
+  path: Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Barrel_04.prefab
+  artifactKey: Guid(ce66a822c9a3f614fbdf2bc93393f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Barrel_04.prefab using Guid(ce66a822c9a3f614fbdf2bc93393f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d16009e828e209b339adbfd0b57ae22') in 0.013919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.331190 seconds.
+  path: Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Pier_02.prefab
+  artifactKey: Guid(c4ce77fae258db1419fe426be4a51bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Pier_02.prefab using Guid(c4ce77fae258db1419fe426be4a51bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d71c1de0f0e28644fa1db624a459f13') in 0.009742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Plant_01.prefab
+  artifactKey: Guid(cb8023970bbd62147ba1b145685c0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Plant_01.prefab using Guid(cb8023970bbd62147ba1b145685c0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadd656d6906bc30bfc13ecbcc78f007') in 0.011247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Tent_01.prefab
+  artifactKey: Guid(a79f26c2c26a872468e9cc5925298ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Tent_01.prefab using Guid(a79f26c2c26a872468e9cc5925298ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c991297952f696a05a183065853edd') in 0.012744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Skull_01.prefab
+  artifactKey: Guid(13613d48b05008747b336f4a0568a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Skull_01.prefab using Guid(13613d48b05008747b336f4a0568a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9680eeb2241dbfe994ecc85de6395f') in 0.011054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/PalmTree_05.prefab
+  artifactKey: Guid(3d6ee73ce0cc2f34fb0943aee27b056a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/PalmTree_05.prefab using Guid(3d6ee73ce0cc2f34fb0943aee27b056a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391cf2323d4f237d09a96f0b4c7b9ca0') in 0.011846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 52.509203 seconds.
+  path: Assets/Prefabs/Village
+  artifactKey: Guid(e07b75196b65424459427132ab4644d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village using Guid(e07b75196b65424459427132ab4644d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbfaec9aa2abd7d1be9928b1198f565') in 0.000677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 56.729166 seconds.
+  path: Assets/DownloadedAssets/Demo/Low poly package/Materials
+  artifactKey: Guid(c57427e13d3dfbc4e89fb4e19cef26a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Demo/Low poly package/Materials using Guid(c57427e13d3dfbc4e89fb4e19cef26a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7a3e7425389f2face6d75a50364c94') in 0.000565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.078044 seconds.
+  path: Assets/DownloadedAssets/Demo/Low poly package/Materials/Pixel texture.mat
+  artifactKey: Guid(58c820cafe0417c4f887a347e82c34a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Demo/Low poly package/Materials/Pixel texture.mat using Guid(58c820cafe0417c4f887a347e82c34a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ebffbb19ad4c00c311d335b7afc085') in 0.102993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 129.727411 seconds.
+  path: Assets/Prefabs/Village/Beachpb.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Beachpb.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52002d2efd979ed5b2cfc2989360303') in 0.054315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 16.124489 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49ffe6e019c3c9acf4d02a9499ab4b5') in 0.055323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 7.449464 seconds.
+  path: Assets/Prefabs/Village/Village1.asset
+  artifactKey: Guid(de8b86c7eaa3d9349821c02966022e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.asset using Guid(de8b86c7eaa3d9349821c02966022e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e436f39f503fde53cfb85a18f6eeb31') in 0.046464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 82.387267 seconds.
+  path: Assets/Prefabs/Village/PalmTree_05.prefab
+  artifactKey: Guid(79835cffb24621c49965b5db191c214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/PalmTree_05.prefab using Guid(79835cffb24621c49965b5db191c214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1f89b263c60d62405787c2a2a228f1') in 0.027855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 4.739279 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc704c50035d825bc14d9aaa242c748') in 0.014908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 4.191351 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f9fa7281a416a8b5fa03ccc286f0aa') in 0.058881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 1.550908 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9775a5056183e1be3ea829b6691c62') in 0.048843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 2.180360 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6754f386712f42ac93f1f84d728eb4') in 0.014620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 2.997220 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89ee1615b241aa77f3c4c050602a382') in 0.101939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 2.316095 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd074b69ab26e6d1a8a69392e043d0157') in 0.073534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 3.545072 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b628658b367870b62e4e7f6f0b6e505a') in 0.056115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 1.752412 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bcf22de95036c8848c9c14b67b1cce') in 0.016300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 2.615590 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c43aa7f2937020d1f15624fd475abb6') in 0.015679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 3.828069 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00077c2eb0fae291d394b1a5385d99ac') in 0.036753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 4.392981 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e3d47961795ff28dbb0ab598977afd') in 0.071232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 21.026486 seconds.
+  path: Assets/ScriptableObjects/TerrainTypes/TerrainType 1.asset
+  artifactKey: Guid(5d1d4aab8ba6c2b4aa58d4dc896fcdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/TerrainTypes/TerrainType 1.asset using Guid(5d1d4aab8ba6c2b4aa58d4dc896fcdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4719eab5821b32e1edc19fc22699de') in 0.005486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 13.988642 seconds.
+  path: Assets/ScriptableObjects/TerrainTypes/River.asset
+  artifactKey: Guid(5d1d4aab8ba6c2b4aa58d4dc896fcdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/TerrainTypes/River.asset using Guid(5d1d4aab8ba6c2b4aa58d4dc896fcdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2775648fcd59cac275df093c9fe95561') in 0.002548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.661610 seconds.
+  path: Assets/ScriptableObjects/TerrainTypes/Village1.asset
+  artifactKey: Guid(ea61aa3eb36d42e4bb8c5a3ad8c5cdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/TerrainTypes/Village1.asset using Guid(ea61aa3eb36d42e4bb8c5a3ad8c5cdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70169e16ddd0d27dbf6fd5a4ab97cb68') in 0.003137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 254.050018 seconds.
+  path: Assets/Prefabs/Grass.prefab
+  artifactKey: Guid(75cd0806c994d574db08d0c960e76fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grass.prefab using Guid(75cd0806c994d574db08d0c960e76fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8109a95af0d42a9509dffbd2f7dae3') in 0.067533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1013
+========================================================================
+Received Import Request.
+  Time since last request: 32.103033 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Branch_01.prefab
+  artifactKey: Guid(b9de24523a11d714db3851b5f0f9d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Branch_01.prefab using Guid(b9de24523a11d714db3851b5f0f9d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59338bbd7ab153d1198128295535e1ae') in 0.010258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.340897 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Bush_03.prefab
+  artifactKey: Guid(34d3f526198dae440bb2ce6005d86055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Bush_03.prefab using Guid(34d3f526198dae440bb2ce6005d86055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a51c399965179c73dec6440a4779ef1') in 0.014352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Grass_01.prefab
+  artifactKey: Guid(f1fc5bb90ac285e4486771552d63bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Grass_01.prefab using Guid(f1fc5bb90ac285e4486771552d63bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad8f8b0f6b556811deea82f1b173c61') in 0.061302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Rock_02.prefab
+  artifactKey: Guid(cebfacc247a640945a2c30b442202fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Rock_02.prefab using Guid(cebfacc247a640945a2c30b442202fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a1bd6e0dcb5e5ef420d6b246b1e722') in 0.036763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Rock_04.prefab
+  artifactKey: Guid(f02116c209ecd9e488fc4d2cd8996133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Rock_04.prefab using Guid(f02116c209ecd9e488fc4d2cd8996133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be243924b46e23f9f319d91d2007f89e') in 0.033889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Mushroom_01.prefab
+  artifactKey: Guid(ff62b58c5a9ea164fa8ddf8038e10cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Mushroom_01.prefab using Guid(ff62b58c5a9ea164fa8ddf8038e10cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31d158a26c2ee16e87c0e7a99e5fd1a') in 0.049923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Stump_01.prefab
+  artifactKey: Guid(eebb56c82efbd8d4bb0eb6bd925a0e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Stump_01.prefab using Guid(eebb56c82efbd8d4bb0eb6bd925a0e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff2136b6109446879d925e3aaa98522') in 0.028660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Grass_02.prefab
+  artifactKey: Guid(ffbddc4ef9676cc419e81e06aaa836d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Grass_02.prefab using Guid(ffbddc4ef9676cc419e81e06aaa836d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85bb0cea9a365ac0649f4a8512e9e73') in 0.010312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Rock_03.prefab
+  artifactKey: Guid(0fde05fa0f3321942a21896ff4f0856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Rock_03.prefab using Guid(0fde05fa0f3321942a21896ff4f0856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21828db3bf4da690ae890406720719e8') in 0.009997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Rock_05.prefab
+  artifactKey: Guid(a778b631c6253a04899cb31bad047c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Rock_05.prefab using Guid(a778b631c6253a04899cb31bad047c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53823a77275b5802e0a7f69c47af99ab') in 0.009683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Ground_02.prefab
+  artifactKey: Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Ground_02.prefab using Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67341bf316d6d6619de0347f6f3dc463') in 0.010860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Flowers_02.prefab
+  artifactKey: Guid(299e7a1cb6456cf4fa6079cf5978df9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Flowers_02.prefab using Guid(299e7a1cb6456cf4fa6079cf5978df9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18d1a2280c8f62d270ebf924c481e0e') in 0.011069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Operacja We/Wy zosta³a przerwana z powodu zakoñczenia w¹tku lub ¿¹dania aplikacji.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
