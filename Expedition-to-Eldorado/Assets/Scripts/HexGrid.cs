@@ -31,7 +31,7 @@ public class HexGrid : MonoBehaviour
                                         3, 1, 3, 2, 3, 1, 3,
                                         3, 0, 1, 3, 3, 3,
                                         2, 0, 3, 3, 1, 
-                                        3, 0, 3, 3});
+                                        3, 4, 3, 3});
     }
 
     private void Start()
