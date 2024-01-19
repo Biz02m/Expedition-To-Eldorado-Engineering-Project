@@ -15,7 +15,7 @@ public class HexGrid : MonoBehaviour
     [field: SerializeField] public int BoardPiece { get; private set; }
     [SerializeField] private List<HexCell> cells = new List<HexCell>();
     [SerializeField] public List<TerrainType> TerrainTypes = new List<TerrainType>();
-    private List<List<int>> boardPieces = new List<List<int>>();
+    private List<List<List<int>>> boardPieces = new List<List<List<int>>>();
     private Task<List<HexCell>> hexGenerationTask;
     private Vector3 gridOrigin;
     public event System.Action OnMapInfoGenerated;
@@ -25,13 +25,24 @@ public class HexGrid : MonoBehaviour
     private void Awake()
     {
         gridOrigin = transform.position;
-        boardPieces.Add(new List<int> {3, 3, 3, 3, 
-                                        3, 3, 3, 3, 3,
-                                        3, 3, 1, 3, 2, 3,
-                                        3, 1, 3, 2, 3, 1, 3,
-                                        3, 0, 1, 3, 3, 3,
-                                        2, 0, 3, 3, 1, 
-                                        3, 4, 3, 3});
+        boardPieces.Add(new List<List<int>> {
+                            new List<int> { -1, -1, -1,  1,  1,  1,  1 },
+                            new List<int> { -1, -1,  1,  1,  1,  1,  1 },
+                            new List<int> { -1,  1,  1,  4,  1,  8,  1 },
+                            new List<int> {  1,  4,  1,  8,  1,  4,  1 },
+                            new List<int> {  1,  0,  1,  1,  1,  1, -1 },
+                            new List<int> {  8,  0,  1,  1,  4, -1, -1 },
+                            new List<int> {  1,  12,  1,  1, -1, -1, -1 }
+                        });
+        boardPieces.Add(new List<List<int>> {
+                            new List<int> { -1, -1, -1,  3,  3,  3,  3 },
+                            new List<int> { -1, -1,  3,  3,  3,  3,  3 },
+                            new List<int> { -1,  3,  3,  1,  3,  2,  3 },
+                            new List<int> {  3,  1,  3,  2,  3,  1,  3 },
+                            new List<int> {  3,  0,  1,  3,  3,  3, -1 },
+                            new List<int> {  2,  0,  3,  3,  1, -1, -1 },
+                            new List<int> {  3,  4,  3,  3, -1, -1, -1 }
+                        });
     }
 
     private void Start()
@@ -54,7 +65,6 @@ public class HexGrid : MonoBehaviour
     {
         Debug.Log("Generating Hex Cell Data");
         List<HexCell> hexCells = new List<HexCell>();
-        int generatedCells = 0;
         for (int z = 0; z <= Size * 2; z++)
         {
             for (int x = 0; x <= Size * 2; x++)
@@ -66,10 +76,9 @@ public class HexGrid : MonoBehaviour
                     cell.SetCoordinates(new Vector2(x, z), Orientation);
                     cell.Grid = this;
                     cell.HexSize = HexSize;
-                    TerrainType terrain = TerrainTypes[boardPieces[BoardPiece][generatedCells]];
+                    TerrainType terrain = TerrainTypes[boardPieces[BoardPiece][z][x]];
                     cell.SetTerrainType(terrain);
                     hexCells.Add(cell);
-                    generatedCells++;
                 }
 
             }

@@ -72,8 +72,8 @@ public class HexCell : MonoBehaviour
             terrain.Rotate(new Vector3(0, 30, 0));
         }
         //Temporary random rotation to make the terrain look more natural
-        int randomRotation = UnityEngine.Random.Range(0, 6);
-        terrain.Rotate(new Vector3(0, randomRotation * 60, 0));
+        //int randomRotation = UnityEngine.Random.Range(0, 6);
+        terrain.Rotate(new Vector3(0, 60, 0));
     }
 
     public void SetNeighbours(List<HexCell> neighbours)

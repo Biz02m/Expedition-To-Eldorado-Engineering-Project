@@ -3528,8 +3528,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 4300000, guid: bb3f15f97d8be994cb5171730049d034,
-    type: 2}
+  m_AdditionalVertexStreams: {fileID: 4300000, guid: bb3f15f97d8be994cb5171730049d034, type: 2}
 --- !u!33 &2459569807118997651
 MeshFilter:
   m_ObjectHideFlags: 0
