@@ -260,9 +260,17 @@ MonoBehaviour:
   cells: []
   TerrainTypes:
   - {fileID: 11400000, guid: e473066373e3b0a46b7a03b59609e252, type: 2}
-  - {fileID: 11400000, guid: ea61aa3eb36d42e4bb8c5a3ad8c5cdb7, type: 2}
-  - {fileID: 11400000, guid: 5d1d4aab8ba6c2b4aa58d4dc896fcdb0, type: 2}
   - {fileID: 11400000, guid: ba2ba3b25da78a24a9225d1acaddc0fb, type: 2}
+  - {fileID: 11400000, guid: 192c388e0d1731046b2d47c73a0cc77b, type: 2}
+  - {fileID: 11400000, guid: 52e82aee808efe041a05da74791b4926, type: 2}
+  - {fileID: 11400000, guid: ea61aa3eb36d42e4bb8c5a3ad8c5cdb7, type: 2}
+  - {fileID: 11400000, guid: 875b15c465d6fdc4aa6678ecefdcffae, type: 2}
+  - {fileID: 11400000, guid: ed945ec7c2b0d9d4486e5bcd33f79972, type: 2}
+  - {fileID: 11400000, guid: ea1c0044492423a47bd4b37e2f9e7c78, type: 2}
+  - {fileID: 11400000, guid: 5d1d4aab8ba6c2b4aa58d4dc896fcdb0, type: 2}
+  - {fileID: 11400000, guid: 452f317387502f04784891d403121f55, type: 2}
+  - {fileID: 11400000, guid: aea0e4f6aa3c1544aaf444defc049fdd, type: 2}
+  - {fileID: 11400000, guid: 429f2ec9ce5f21445bab1d168851e0e7, type: 2}
   - {fileID: 11400000, guid: fc0ccdab728749c4aa7b6efb3ed52aae, type: 2}
 --- !u!4 &722791183
 Transform:
