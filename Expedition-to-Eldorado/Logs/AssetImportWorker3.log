@@ -1,0 +1,2061 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreN' Language: 'pl' Physical Memory: 16298 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/TH3V1LPL4Y3R/Desktop/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+3440
+Successfully changed project path to: C:/Users/TH3V1LPL4Y3R/Desktop/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado
+C:/Users/TH3V1LPL4Y3R/Desktop/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26360] Host "[IP] 172.16.0.215 [Port] 0 [Flags] 2 [Guid] 2635549464 [EditorId] 2635549464 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0Q75A96) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26360] Host "[IP] 172.16.0.215 [Port] 0 [Flags] 2 [Guid] 2635549464 [EditorId] 2635549464 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0Q75A96) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/TH3V1LPL4Y3R/Desktop/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x220a)
+    Vendor:   NVIDIA
+    VRAM:     12107 MB
+    Driver:   31.0.15.4584
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004151 seconds.
+- Loaded All Assemblies, in  0.249 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.212 seconds
+Domain Reload Profiling: 460ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (75ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (86ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (212ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (167ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.444 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.577 seconds
+Domain Reload Profiling: 1021ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (578ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3669 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (185.8 KB). Loaded Objects now: 4137.
+Memory consumption went from 145.6 MB to 145.5 MB.
+Total: 2.869200 ms (FindLiveObjects: 0.177300 ms CreateObjectMapping: 0.088300 ms MarkObjects: 2.482900 ms  DeleteObjects: 0.119900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24120.230619 seconds.
+  path: Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Barrel_04.prefab
+  artifactKey: Guid(ce66a822c9a3f614fbdf2bc93393f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Barrel_04.prefab using Guid(ce66a822c9a3f614fbdf2bc93393f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589eea00139f4d83cf8a12de6467245e') in 0.116003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/SimpleSky/Prefabs/Cloud_06.prefab
+  artifactKey: Guid(c2391e8a6bdf5424194b61e41952a40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleSky/Prefabs/Cloud_06.prefab using Guid(c2391e8a6bdf5424194b61e41952a40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3d908d23baa8797da48424f7b311ab') in 0.011602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Chest_01.prefab
+  artifactKey: Guid(2269c5cfaa7f7314bba868f540b5ddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Prefabs/Chest_01.prefab using Guid(2269c5cfaa7f7314bba868f540b5ddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6111579edba3613c348d8f29681efd0f') in 0.011314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Objects/Crops.prefab
+  artifactKey: Guid(1b13308cf0c0f6b4fb4f182c3fd921f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Objects/Crops.prefab using Guid(1b13308cf0c0f6b4fb4f182c3fd921f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44ad95e1d7ae2ccc0edeb042efc4162') in 0.009791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Hexagons/BeachShore.prefab
+  artifactKey: Guid(71199765df3f9d147bc10d0b8c6f4af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Hexagons/BeachShore.prefab using Guid(71199765df3f9d147bc10d0b8c6f4af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b152e58451ca691c822de420e4d54f15') in 0.010414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/Stones_and_buried_treasure/Prefabs/Chest_Open.prefab
+  artifactKey: Guid(33bf31b2b982a14499d546025065ad22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Stones_and_buried_treasure/Prefabs/Chest_Open.prefab using Guid(33bf31b2b982a14499d546025065ad22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140fcb9e3c99f41e894d358fae33a072') in 0.009213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Prefabs/Cloud2.prefab
+  artifactKey: Guid(fddda2a39f85ef043ad3625db468391f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Prefabs/Cloud2.prefab using Guid(fddda2a39f85ef043ad3625db468391f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41171c7ca0950de82d07f0f130768e7b') in 0.008836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/SimpleSky/Prefabs/Cloud_05.prefab
+  artifactKey: Guid(c37b1ccfbc7ed274eb99f9d40e72c4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleSky/Prefabs/Cloud_05.prefab using Guid(c37b1ccfbc7ed274eb99f9d40e72c4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3402269a9d21a26caa6ec3a3fb8d2e25') in 0.009583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Plants/EA04_Env_Plants_Cactus_01b_PRE.prefab
+  artifactKey: Guid(f9a96b9a70de8214f9184755b87f1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Plants/EA04_Env_Plants_Cactus_01b_PRE.prefab using Guid(f9a96b9a70de8214f9184755b87f1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719ea26726abcf68693db15d5a9ba61a') in 0.009409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Prefabs/CampFire.prefab
+  artifactKey: Guid(d6a5e2c4aefa6804b8f7d2af9a9676b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Prefabs/CampFire.prefab using Guid(d6a5e2c4aefa6804b8f7d2af9a9676b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fb4753eabff2edfac5fd95983e363a') in 0.057203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Stone/EA04_Env_Stone_Sand_01a_PRE.prefab
+  artifactKey: Guid(5c832dd79dfd51d489f609712d07439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Stone/EA04_Env_Stone_Sand_01a_PRE.prefab using Guid(5c832dd79dfd51d489f609712d07439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95753613fb2b09b6d28d218eb628eb2b') in 0.010571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Rocks/EA04_Env_Rocks_Gray_01d_PRE.prefab
+  artifactKey: Guid(d1889a99be7acf241af1de5e850ee4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Rocks/EA04_Env_Rocks_Gray_01d_PRE.prefab using Guid(d1889a99be7acf241af1de5e850ee4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebf91f6c05857d3f284453f34058046') in 0.021975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Trunk/EA04_Env_Tree_Trunk_01e_PRE.prefab
+  artifactKey: Guid(a865e7ad8634264498eca14a1f123a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Trunk/EA04_Env_Tree_Trunk_01e_PRE.prefab using Guid(a865e7ad8634264498eca14a1f123a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f00a80f03c9bcbc9d636369df3103e0') in 0.010487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Stone/EA04_Env_Stone_Sand_01b_PRE.prefab
+  artifactKey: Guid(375d763285ccba54a935074aafa06bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Stone/EA04_Env_Stone_Sand_01b_PRE.prefab using Guid(375d763285ccba54a935074aafa06bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d015c70e14b0e96a977650342a5507') in 0.009120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/cauldron/EA04_Prop_cauldron_01a_PRE.prefab
+  artifactKey: Guid(59dbe1ffa44fb2b419b71ba1f408f7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/cauldron/EA04_Prop_cauldron_01a_PRE.prefab using Guid(59dbe1ffa44fb2b419b71ba1f408f7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669b60ba6c198728b39dc5b340e67120') in 0.009817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Pole/EA04_Prop_Pole_01a.001_PRE.prefab
+  artifactKey: Guid(f2f6ac5be7a19fd4dad342615b55e2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Pole/EA04_Prop_Pole_01a.001_PRE.prefab using Guid(f2f6ac5be7a19fd4dad342615b55e2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4b6d6efe27e580fca79e4d209305c6') in 0.008554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Wehicule/Raft/EA04_Wehicule_Raft_01a_PRE.prefab
+  artifactKey: Guid(310b346be14406a469f36ea6987c701d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Wehicule/Raft/EA04_Wehicule_Raft_01a_PRE.prefab using Guid(310b346be14406a469f36ea6987c701d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbe9efdf21e6d744caba323e8b591d0') in 0.033407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_01i_PRE.prefab
+  artifactKey: Guid(b63c1ca5c871f2343b9fbe973879a71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_01i_PRE.prefab using Guid(b63c1ca5c871f2343b9fbe973879a71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d642ae515d77aa3c7645ad46108065') in 0.009380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_Color_01b_PRE.prefab
+  artifactKey: Guid(e75d184eba578ed45b56e7836cd2f800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_Color_01b_PRE.prefab using Guid(e75d184eba578ed45b56e7836cd2f800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ad73c1269a1bb2fc8c1d528a9ca619') in 0.010489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_01e_PRE.prefab
+  artifactKey: Guid(d75a10d759ed40b40942068c1a321dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_01e_PRE.prefab using Guid(d75a10d759ed40b40942068c1a321dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d41e3f5316f671a8f2d94555bfd0db') in 0.009572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_Color_01g_PRE.prefab
+  artifactKey: Guid(7fc829d02e81b2d4c8a9a98210801157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_Color_01g_PRE.prefab using Guid(7fc829d02e81b2d4c8a9a98210801157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe25e579381e7f0ead4b8cc9b335dfa') in 0.009941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Objects/Candy2.prefab
+  artifactKey: Guid(17603828d4b3468469a14a5e0b460bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Objects/Candy2.prefab using Guid(17603828d4b3468469a14a5e0b460bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6521b2378624615f6d42860c571abee') in 0.011493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_Color_01h_PRE.prefab
+  artifactKey: Guid(1515b905b0a7c5e4c871e024017b362e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_Color_01h_PRE.prefab using Guid(1515b905b0a7c5e4c871e024017b362e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f76d28724f954f021230d7df365912') in 0.009600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/EA04_Prop_Fireplace_01a_PRE.prefab
+  artifactKey: Guid(74f9dba54a7d46944b0dfa30087b3263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/EA04_Prop_Fireplace_01a_PRE.prefab using Guid(74f9dba54a7d46944b0dfa30087b3263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727be45706208d944e7bc74d8915291f') in 0.010383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DownloadedAssets/Stones_and_buried_treasure/Prefabs/Emerald.prefab
+  artifactKey: Guid(2c9868bb7821e484083e774038674eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Stones_and_buried_treasure/Prefabs/Emerald.prefab using Guid(2c9868bb7821e484083e774038674eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c813ae287509bc7c0786205d1400f1e4') in 0.008812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Objects/Factory.prefab
+  artifactKey: Guid(f4da999687480fd4abc77b148f373c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Objects/Factory.prefab using Guid(f4da999687480fd4abc77b148f373c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6001003463ee298049f51afb7d99a08') in 0.011564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Objects/Fence.prefab
+  artifactKey: Guid(2a506530c723d3a429773b86bf8ab9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Objects/Fence.prefab using Guid(2a506530c723d3a429773b86bf8ab9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad9a832ac68495317c92da21b2a6315') in 0.009033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/Demo/Low poly package/Prefabs/Fence 2.prefab
+  artifactKey: Guid(3a5c8eb23edd15348b90dca0f1c1f703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Demo/Low poly package/Prefabs/Fence 2.prefab using Guid(3a5c8eb23edd15348b90dca0f1c1f703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ef782a59408a9c89080565eedc0974') in 0.009201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Combination Examples/FencedLand.prefab
+  artifactKey: Guid(cb61a3b5c7a1c434fa1a9a5bec7b2a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Combination Examples/FencedLand.prefab using Guid(cb61a3b5c7a1c434fa1a9a5bec7b2a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce847532dbea7344cb3966420499574') in 0.010326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Prefabs/Flower3.prefab
+  artifactKey: Guid(221bd8eee906efe489a9f1c8aad0ec09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Prefabs/Flower3.prefab using Guid(221bd8eee906efe489a9f1c8aad0ec09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27507d8908732323110b221953167bfb') in 0.009959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Combination Examples/Factory.prefab
+  artifactKey: Guid(845f30f44a7d6914c8bc17b0221ab5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Combination Examples/Factory.prefab using Guid(845f30f44a7d6914c8bc17b0221ab5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b334ad8f0f38dec187f2a2e4ec1310') in 0.011534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Cloud/EA04_Env_Cloud_01a_PRE.prefab
+  artifactKey: Guid(8f77fc4e6df5c3340bd35620d18e691c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Cloud/EA04_Env_Cloud_01a_PRE.prefab using Guid(8f77fc4e6df5c3340bd35620d18e691c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8e2ec5b727319829358af54f32d32a') in 0.012431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Rocks/EA04_Env_Rocks_Gray_01c_PRE.prefab
+  artifactKey: Guid(39cc16b8d5718454486b29a78462b360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Rocks/EA04_Env_Rocks_Gray_01c_PRE.prefab using Guid(39cc16b8d5718454486b29a78462b360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9bebb851bb93a3deb099f5b213f0ec') in 0.012307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/Stones_and_buried_treasure/Prefabs/Elixir_Of_Health.prefab
+  artifactKey: Guid(fb1342e2566442642a1b0da9756b066e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Stones_and_buried_treasure/Prefabs/Elixir_Of_Health.prefab using Guid(fb1342e2566442642a1b0da9756b066e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10f381d86e5c13a27ebd0826535749b') in 0.011019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Roots/EA04_Env_Tree_Root_01d_PRE.prefab
+  artifactKey: Guid(5ac678349b739ee499b8867af8acbf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Roots/EA04_Env_Tree_Root_01d_PRE.prefab using Guid(5ac678349b739ee499b8867af8acbf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a559b7af629be4d5c9951e69212acb18') in 0.011257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Plants/EA04_Env_Plants_Grass_Dry_01a_PRE.prefab
+  artifactKey: Guid(47555e4f5572b0d4c94e95b1b8d25596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Plants/EA04_Env_Plants_Grass_Dry_01a_PRE.prefab using Guid(47555e4f5572b0d4c94e95b1b8d25596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c61cfa3bd5c196cb51ce8bce80f1c2') in 0.010477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_01d_PRE.prefab
+  artifactKey: Guid(c9e669d5734582b458efb52cb6863e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_01d_PRE.prefab using Guid(c9e669d5734582b458efb52cb6863e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4715ac4b491e709af2b2138c25ed751b') in 0.010433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/SimpleSky/Prefabs/Cloud_04.prefab
+  artifactKey: Guid(420bde364644a314396dc8ed24ee99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleSky/Prefabs/Cloud_04.prefab using Guid(420bde364644a314396dc8ed24ee99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cd61d07df462b98dcd70a9bab117c2') in 0.009635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Plants/EA04_Env_Plants_Grass_01a_PRE.prefab
+  artifactKey: Guid(6dcf98e9e264196439c4ce7e1c2ea192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Plants/EA04_Env_Plants_Grass_01a_PRE.prefab using Guid(6dcf98e9e264196439c4ce7e1c2ea192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b76684adda30ea146fa8919877b246') in 0.010185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Stone/EA04_Env_Stone_Gray_01a_PRE.prefab
+  artifactKey: Guid(270b158d0a9b9804cb6a7f9492cdfae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Stone/EA04_Env_Stone_Gray_01a_PRE.prefab using Guid(270b158d0a9b9804cb6a7f9492cdfae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8147040b5930015da3d5db61b7f8adbb') in 0.009995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Bush_01.prefab
+  artifactKey: Guid(3cdafb3c2f54d434894928d72d282874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Prefabs/Bush_01.prefab using Guid(3cdafb3c2f54d434894928d72d282874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4afd56b20f7c77b7abc3ddf6539a06') in 0.010639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_01g_PRE.prefab
+  artifactKey: Guid(5b32c7388173ec64988f66a45935549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_01g_PRE.prefab using Guid(5b32c7388173ec64988f66a45935549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255a602de89c711619e10b50a58aaf62') in 0.009922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Roots/EA04_Env_Tree_Root_01c_PRE.prefab
+  artifactKey: Guid(f02f157366585ba458e6b5c0b844c8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Roots/EA04_Env_Tree_Root_01c_PRE.prefab using Guid(f02f157366585ba458e6b5c0b844c8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af98acd422441eb86b42b17eb5b09aca') in 0.010900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Pole/EA04_Wooden_Pole_Color_01c_PRE.prefab
+  artifactKey: Guid(d14df0cffe108bd4c86d7cb26c0f61a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Pole/EA04_Wooden_Pole_Color_01c_PRE.prefab using Guid(d14df0cffe108bd4c86d7cb26c0f61a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4a6556472742e7c94def3b68c572bb') in 0.011300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/Demo/Low poly package/Prefabs/Fence 3.prefab
+  artifactKey: Guid(a1bc7cab9964cfd419c9412ac66b2c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Demo/Low poly package/Prefabs/Fence 3.prefab using Guid(a1bc7cab9964cfd419c9412ac66b2c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc8ea229a40a1d3d0040b23f41a62b0') in 0.010473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Barrel/EA04_Prop_Barrel_01a_PRE.prefab
+  artifactKey: Guid(0cd6ff090b1f6b94eb7296a8ccde7df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Barrel/EA04_Prop_Barrel_01a_PRE.prefab using Guid(0cd6ff090b1f6b94eb7296a8ccde7df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42e831ae6242d3e045d3eda5338f0dd') in 0.011225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Objects/EvilCastle.prefab
+  artifactKey: Guid(d3e769e7bcc04fe428809411076a9a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Objects/EvilCastle.prefab using Guid(d3e769e7bcc04fe428809411076a9a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a45c17fe749484cc440d1b7b04b474') in 0.010441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Prefabs/FallenBranch.prefab
+  artifactKey: Guid(f8ccaa39b2ab7414796d8eaab4b7bb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Prefabs/FallenBranch.prefab using Guid(f8ccaa39b2ab7414796d8eaab4b7bb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49df4c328d42c10e13f954d09c5eea5') in 0.009716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_Color_01c_PRE.prefab
+  artifactKey: Guid(1387f13e2a104884aaf541662f54babe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Desk/EA04_Wooden_Desk_Color_01c_PRE.prefab using Guid(1387f13e2a104884aaf541662f54babe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf2841b75ed59def410839ccf3a067f') in 0.010112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Cloud/EA04_Env_Cloud_01b_PRE.prefab
+  artifactKey: Guid(755d3ea69b3012642bc84fbc5364688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Cloud/EA04_Env_Cloud_01b_PRE.prefab using Guid(755d3ea69b3012642bc84fbc5364688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9887081a206ed5e2707e892b8ae12b1e') in 0.013591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Objects/DesertMountain.prefab
+  artifactKey: Guid(81d0b563b01a9e54da5fb7a2190d0dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Objects/DesertMountain.prefab using Guid(81d0b563b01a9e54da5fb7a2190d0dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf987f9d410ea0d4db4666582ecad863') in 0.010575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Pole/EA04_Wooden_Pole_Color_01b_PRE.prefab
+  artifactKey: Guid(3927b1b9694b16c499d2fba4d577ca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Prop/Wooden/Pole/EA04_Wooden_Pole_Color_01b_PRE.prefab using Guid(3927b1b9694b16c499d2fba4d577ca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606189c5215a2164bca63c8767852e4a') in 0.009569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Combination Examples/EvilCastle.prefab
+  artifactKey: Guid(acf51e39f8505084796481991b891ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Combination Examples/EvilCastle.prefab using Guid(acf51e39f8505084796481991b891ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60edb7fbfc996289e1de76e73b083b20') in 0.011697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Combination Examples/DesertCacti.prefab
+  artifactKey: Guid(ce6f2f64a6f1845499e520cdede3a885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Combination Examples/DesertCacti.prefab using Guid(ce6f2f64a6f1845499e520cdede3a885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c54c74ed0768246ef07055695535bed') in 0.010597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Combination Examples/Castle.prefab
+  artifactKey: Guid(fadb9dd6254f1d14a9b77307bf133e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Combination Examples/Castle.prefab using Guid(fadb9dd6254f1d14a9b77307bf133e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14636bb3d9d2351e882f88f920204e85') in 0.010590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/Stones_and_buried_treasure/Prefabs/Crown.prefab
+  artifactKey: Guid(60843c6f0abfe104f8c631aabae51301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Stones_and_buried_treasure/Prefabs/Crown.prefab using Guid(60843c6f0abfe104f8c631aabae51301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfe45a7c65d3ebde6ee6f6935cf9ad1') in 0.009337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Combination Examples/DesertSkulRock.prefab
+  artifactKey: Guid(60e77467a81160140b6dd83e291db008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Prefabs/Combination Examples/DesertSkulRock.prefab using Guid(60e77467a81160140b6dd83e291db008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586b5e30f367d53ded5225cf0c7fc92f') in 0.012095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Animal/Bird/EA04_Animal_Bird_01a_PRE.prefab
+  artifactKey: Guid(e813196d4af634c4abd9059ae3446f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Animal/Bird/EA04_Animal_Bird_01a_PRE.prefab using Guid(e813196d4af634c4abd9059ae3446f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c37e76656e8282753aa8b4fd17228d0') in 0.011965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Ground/EA04_Env_Terrain_Desert_01a_PRE.prefab
+  artifactKey: Guid(0331db742c9d04043b9ba01afcccf73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Prefabs/Env/Ground/EA04_Env_Terrain_Desert_01a_PRE.prefab using Guid(0331db742c9d04043b9ba01afcccf73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bbfe1c2cf431e4fb865269e895870e') in 0.009035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.402600 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadK_detail.dae
+  artifactKey: Guid(d03666975c80e484cadbb38f85f0394f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadK_detail.dae using Guid(d03666975c80e484cadbb38f85f0394f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511c7a51ca674bc6700279df9a889608') in 0.046474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/market.obj
+  artifactKey: Guid(b51140ea74c46ab43a9caf9e07c92b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/market.obj using Guid(b51140ea74c46ab43a9caf9e07c92b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039ffae6a415e9e1146251672e0e9a30') in 0.029230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadF.dae
+  artifactKey: Guid(b37fcb2ee4ff2f9428ee7b07339e779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadF.dae using Guid(b37fcb2ee4ff2f9428ee7b07339e779b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570a7f10eb62bb84951e2d1e1137755c') in 0.018216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadK_detail.dae
+  artifactKey: Guid(a7c88691a297c1745934e7d0710c3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadK_detail.dae using Guid(a7c88691a297c1745934e7d0710c3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ced71a59e2ff080d5271560547a4c7') in 0.020994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadH.dae
+  artifactKey: Guid(262efe65de206ef468be52c8fd51517a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadH.dae using Guid(262efe65de206ef468be52c8fd51517a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff9cc8c9c1ecc54fe62513793dcfb79') in 0.017629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterA_detail.obj
+  artifactKey: Guid(8bb0fba298a391f48978ab7d3f0ce0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterA_detail.obj using Guid(8bb0fba298a391f48978ab7d3f0ce0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aa6882ecc968fd0f74c10f15436e93') in 0.055222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_waterC_detail.dae
+  artifactKey: Guid(eeb1016a47f691b49b55c7c72e2453cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_waterC_detail.dae using Guid(eeb1016a47f691b49b55c7c72e2453cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf6a6106ccc18691c69e4f9f73e57de') in 0.021853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadJ.obj
+  artifactKey: Guid(4754ea50c6660134f9f4d11908abaf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadJ.obj using Guid(4754ea50c6660134f9f4d11908abaf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d4b385f2081cf29e194a9c52a8d3f3') in 0.019390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterD_empty.obj
+  artifactKey: Guid(cf1962c2450914747accf57ab0511ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterD_empty.obj using Guid(cf1962c2450914747accf57ab0511ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1933f5971586862868ae4e484953a03f') in 0.016635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadG.dae
+  artifactKey: Guid(d21bf20cc135967488d97293f5f6c4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadG.dae using Guid(d21bf20cc135967488d97293f5f6c4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4dce5073a82910dc0428842c1f42bd0') in 0.018113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadG_detail.dae
+  artifactKey: Guid(5a97f52ed07f0bc418905c7267d0d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadG_detail.dae using Guid(5a97f52ed07f0bc418905c7267d0d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccf97e68b93e7d4dc2f9c899a8c3e07') in 0.020922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand.dae
+  artifactKey: Guid(38928e3c6b065d0478eeb47876de1026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand.dae using Guid(38928e3c6b065d0478eeb47876de1026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee14c65be7daff82033c534b047c415') in 0.017524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterB_detail.obj
+  artifactKey: Guid(1bd21be662dd9054a9013d9672ff2895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterB_detail.obj using Guid(1bd21be662dd9054a9013d9672ff2895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d02a6d2ab02cea392b05f807067cc72') in 0.023645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterC.obj
+  artifactKey: Guid(75be09b4dfe7ac54baa06f59aa4b9746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterC.obj using Guid(75be09b4dfe7ac54baa06f59aa4b9746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb9a3bdd688408a6ada101da247f60c') in 0.018329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadL_detail.dae
+  artifactKey: Guid(8f27790da2da50d4ca8641763a6f4dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadL_detail.dae using Guid(8f27790da2da50d4ca8641763a6f4dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca843be7070c34320155f61fbb70bcbe') in 0.020481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadC_detail.obj
+  artifactKey: Guid(e9a71f03754f514469572960bba08f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadC_detail.obj using Guid(e9a71f03754f514469572960bba08f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc2ed279de6f8f8d480f61bd5606855') in 0.021660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadB_detail.dae
+  artifactKey: Guid(643c9855ab680874cbf08c764dd7d182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadB_detail.dae using Guid(643c9855ab680874cbf08c764dd7d182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbc282a96715d407125386bd4ca6409') in 0.018514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadE_detail.dae
+  artifactKey: Guid(c5b56f5ef4aea7547a314cf15b239c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadE_detail.dae using Guid(c5b56f5ef4aea7547a314cf15b239c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f918f8f54669d4bdce9c50281af6b32') in 0.019783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_waterC_empty.dae
+  artifactKey: Guid(57cd03fb2584e2541bc551b824444f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_waterC_empty.dae using Guid(57cd03fb2584e2541bc551b824444f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884cf03907dab74f0ae54f67638ea14b') in 0.013432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadI.obj
+  artifactKey: Guid(fc19fce690c850c4e81a4e58197262b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadI.obj using Guid(fc19fce690c850c4e81a4e58197262b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d20d323761d51df02a6fb8b0836cc2') in 0.020251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterB.obj
+  artifactKey: Guid(c01a23060cce9af489e9040ae3b0f904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterB.obj using Guid(c01a23060cce9af489e9040ae3b0f904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80a3fe3bf6235237edb576bd6ae054d') in 0.020474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterD_detail.obj
+  artifactKey: Guid(89f5d8515fe8c2e458344cfbb355f604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterD_detail.obj using Guid(89f5d8515fe8c2e458344cfbb355f604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad6d8de96f07de30f44cd7afcd682d1') in 0.021000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/watchtower.obj
+  artifactKey: Guid(639d8a67b1e8bf24ab53315bcc70a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/watchtower.obj using Guid(639d8a67b1e8bf24ab53315bcc70a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117e457db76526aa40df4876901365e3') in 0.024428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadM_detail.dae
+  artifactKey: Guid(c7f78835b0088bb468a500fb9a422203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadM_detail.dae using Guid(c7f78835b0088bb468a500fb9a422203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e466621c83ecadc4dd017ad1a9656ce2') in 0.019372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/well.obj
+  artifactKey: Guid(a04c9ea592735974bb29912204dcc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/well.obj using Guid(a04c9ea592735974bb29912204dcc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3b324ada101cb76dcbb32ca7d607d8') in 0.031391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadI.dae
+  artifactKey: Guid(e5d1948621bd50949a0a282a319fb9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadI.dae using Guid(e5d1948621bd50949a0a282a319fb9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ebd8712b938aa54ebf815d0721cd4c') in 0.017071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/square/obj/square_sand_detail.obj
+  artifactKey: Guid(817ff4f81d6e0b94a889c253d816f215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/square/obj/square_sand_detail.obj using Guid(817ff4f81d6e0b94a889c253d816f215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0dc94c87c2ecb6308758ba4ac1ef16') in 0.020008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadB.dae
+  artifactKey: Guid(a30d424efc8c0e94bbf5cb8ae99e2b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadB.dae using Guid(a30d424efc8c0e94bbf5cb8ae99e2b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd423f4b38f75b1a5cf1f9cd07efa65d2') in 0.017872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadB_detail.obj
+  artifactKey: Guid(4e2f0139d7f2a714dad6101096af2850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadB_detail.obj using Guid(4e2f0139d7f2a714dad6101096af2850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efe67574531d8e824f825df7ea00ba9') in 0.023201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadA_detail.obj
+  artifactKey: Guid(d0dc7df463e1d9e498fa6e5124ff15db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadA_detail.obj using Guid(d0dc7df463e1d9e498fa6e5124ff15db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbb0003b17fb9a4324c7bf6a348c6da') in 0.021553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_waterC.dae
+  artifactKey: Guid(53ecf14369b78f44c803537e5e348211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_waterC.dae using Guid(53ecf14369b78f44c803537e5e348211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131368fafde41a11b279ccd5b461ef69') in 0.016919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadE_detail.dae
+  artifactKey: Guid(79452d4f79ce3734295269b4160e3ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadE_detail.dae using Guid(79452d4f79ce3734295269b4160e3ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0a350f151e27d127505d41dae459dd') in 0.020627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadG_detail.obj
+  artifactKey: Guid(57af96f69eae9ff4d80584ba59eddd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadG_detail.obj using Guid(57af96f69eae9ff4d80584ba59eddd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6040f5343f70394d63fe0379f2f915a') in 0.023287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadA.dae
+  artifactKey: Guid(a96871dc637b80c4d9b32bd08306f671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadA.dae using Guid(a96871dc637b80c4d9b32bd08306f671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42910849899cb776264d0e402a5b1e1f') in 0.017119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadC.obj
+  artifactKey: Guid(fa05ec220092fba40baa284099aa2787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadC.obj using Guid(fa05ec220092fba40baa284099aa2787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd93743a77f2811e7d3478e4f8851eed') in 0.019006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadB.dae
+  artifactKey: Guid(f5fabd0e6e1c70b42aaa688c6819c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadB.dae using Guid(f5fabd0e6e1c70b42aaa688c6819c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2c4f34bd232fcf391acdc6a7b72537') in 0.016676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadF.dae
+  artifactKey: Guid(224d26d56cea5a447a10bcee1313e1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadF.dae using Guid(224d26d56cea5a447a10bcee1313e1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50980a1209906e18c54e22b9ee095e5') in 0.017442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadH.dae
+  artifactKey: Guid(51fecb2e420d0a74d98bc9202466fd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadH.dae using Guid(51fecb2e420d0a74d98bc9202466fd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b93687d6039fce5c07c85ab0d234b4') in 0.017892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_transitionA.dae
+  artifactKey: Guid(0b26d6ab5d26d61478a4a70085855b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_transitionA.dae using Guid(0b26d6ab5d26d61478a4a70085855b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a40c122f14abffd97fddffc8a7c844') in 0.019741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterC_detail.obj
+  artifactKey: Guid(340ed2df0d8eb7a4fab160df05d0079c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_waterC_detail.obj using Guid(340ed2df0d8eb7a4fab160df05d0079c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e916a7cd04f80962540fd59f6d2ea5') in 0.022221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/square/obj/square_sand_roadA.obj
+  artifactKey: Guid(b2a640ce4653f4944b9b61529fa2cb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/square/obj/square_sand_roadA.obj using Guid(b2a640ce4653f4944b9b61529fa2cb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5857b6f865d083411fa57fd5afc0c937') in 0.019684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/mine.obj
+  artifactKey: Guid(07dae0e9cdcdf5c44aec57053ce4e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/mine.obj using Guid(07dae0e9cdcdf5c44aec57053ce4e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d8a8008025f712b2ca1666213e6459') in 0.030373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadF.obj
+  artifactKey: Guid(0f2d329e805d8ce4aad94507138ab566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadF.obj using Guid(0f2d329e805d8ce4aad94507138ab566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c78ee01d45cff632ca1b8a44a68663') in 0.019653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadH_detail.obj
+  artifactKey: Guid(5e77e378e7dd9f5499b2271bb6fc61cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_sand_roadH_detail.obj using Guid(5e77e378e7dd9f5499b2271bb6fc61cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f57b23d95472e59632689b1aed207a8') in 0.021443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/square/dae/square_forest_roadA_detail.dae
+  artifactKey: Guid(95b6f8171f06be94489af4f60af89143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/square/dae/square_forest_roadA_detail.dae using Guid(95b6f8171f06be94489af4f60af89143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ec4c3ab281214ae843a8fe5d97993e') in 0.019721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadC.dae
+  artifactKey: Guid(a6ce281efe33f4343a1175352f1f36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadC.dae using Guid(a6ce281efe33f4343a1175352f1f36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f73419cf84914549e9ad0d7e1fa7729') in 0.017609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadE_detail.dae
+  artifactKey: Guid(ec5ef1e0d335d624cb7c2579371e509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadE_detail.dae using Guid(ec5ef1e0d335d624cb7c2579371e509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db440a756827b2102f6f0a42ca85343') in 0.021011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadJ.dae
+  artifactKey: Guid(07a6f875394974e43ade313b039f038b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadJ.dae using Guid(07a6f875394974e43ade313b039f038b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60bb2e2ac9408512605f5671dfb96bb') in 0.016995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadE.dae
+  artifactKey: Guid(b2083aeeb8eb073418cd09b5bb9620b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadE.dae using Guid(b2083aeeb8eb073418cd09b5bb9620b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c3e7f4f2012d164bd300d9918fb3d2') in 0.017884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadD_detail.dae
+  artifactKey: Guid(1f7478e321a62564b9bd86c747eba058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadD_detail.dae using Guid(1f7478e321a62564b9bd86c747eba058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f48f3405559819c532c1a285d9b81d') in 0.020746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadG_detail.dae
+  artifactKey: Guid(df4829e41dced9e43a1945a6f6a36af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadG_detail.dae using Guid(df4829e41dced9e43a1945a6f6a36af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3522fe2b4e0c03bdc921b51ae6d6e2b') in 0.019788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadF_detail.dae
+  artifactKey: Guid(2915da91e00e21640824b6268ae71bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadF_detail.dae using Guid(2915da91e00e21640824b6268ae71bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c201a7a0811cd65c9ff50ff3bf35ec8') in 0.019331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadI_detail.dae
+  artifactKey: Guid(89c504541490ebe42a79417f16c53179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadI_detail.dae using Guid(89c504541490ebe42a79417f16c53179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55d960dcb56997f66662e94e39743a1') in 0.019305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadB.dae
+  artifactKey: Guid(ea293d1a44b06514d9438acee77ba7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadB.dae using Guid(ea293d1a44b06514d9438acee77ba7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99ee1cf78cbeb86ce80c5a1f3599944') in 0.015491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/archeryrange.obj
+  artifactKey: Guid(dcc85cc35b8687744a25d7b0130498cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/archeryrange.obj using Guid(dcc85cc35b8687744a25d7b0130498cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dbcb474505b193c410bd08d2293466') in 0.028168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/detail_treeA.obj
+  artifactKey: Guid(8bdc243ff9ab5f74caf380986b4f67fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/detail_treeA.obj using Guid(8bdc243ff9ab5f74caf380986b4f67fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d25f60ee9e02fb4790cffba1d39eca') in 0.018318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/fbx/detail_forestA.fbx
+  artifactKey: Guid(1f93b0bed1208e74d826c74db0dc9b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/fbx/detail_forestA.fbx using Guid(1f93b0bed1208e74d826c74db0dc9b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e65915571da6a27ac689e7ec031af0') in 0.019259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01i.fbx
+  artifactKey: Guid(0cd44203d7674964e9f7006f09ee914c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01i.fbx using Guid(0cd44203d7674964e9f7006f09ee914c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be72211dc63c78d21d1536a6fd38858') in 0.023279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01d.fbx
+  artifactKey: Guid(dfe383d07939fb0478f7662ffc5a2f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01d.fbx using Guid(dfe383d07939fb0478f7662ffc5a2f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0961be306cbac5cc8956d0c349824c7') in 0.024356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/fbx/detail_forestB.fbx
+  artifactKey: Guid(fe3ff68ff767f8f4d870619d6bdf7fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/fbx/detail_forestB.fbx using Guid(fe3ff68ff767f8f4d870619d6bdf7fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38a82386b02006e0fdf2b582f0bc585') in 0.019394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01c.fbx
+  artifactKey: Guid(8593ded905f9af947a7107db718cfd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01c.fbx using Guid(8593ded905f9af947a7107db718cfd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9476b471e909c6f8bc94164182548188') in 0.025051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Skull_01a.fbx
+  artifactKey: Guid(568c8be8e61e26343a5217ab2fa1ad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Skull_01a.fbx using Guid(568c8be8e61e26343a5217ab2fa1ad66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b1e74f88f3c3a64d19e265a54446d2') in 0.024023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Models/Chest_01_2.fbx
+  artifactKey: Guid(2676e78c7f3295e4fafa83bedcf2c7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Models/Chest_01_2.fbx using Guid(2676e78c7f3295e4fafa83bedcf2c7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879c0d7ed42be325d4ab05d61d03c504') in 0.022731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Models/Barrel_04.fbx
+  artifactKey: Guid(05b8d3faa6a97524ea4a2260b027738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/LowPolyTropicalEnvironment_LITE/Models/Barrel_04.fbx using Guid(05b8d3faa6a97524ea4a2260b027738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f463e0e911efe7f8be9cac5ca7c0aa2f') in 0.024352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01c.fbx
+  artifactKey: Guid(68df7f764ac622e47a27228d3e5d2d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01c.fbx using Guid(68df7f764ac622e47a27228d3e5d2d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8200ac12952bc879d3be3d02f42cff38') in 0.025011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Sand_01a.fbx
+  artifactKey: Guid(bc38a0273f1f5f84d9fa9c366c52779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Sand_01a.fbx using Guid(bc38a0273f1f5f84d9fa9c366c52779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d6f8979d18ff720226986675463e6e') in 0.024918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/DesertMountain.fbx
+  artifactKey: Guid(7eeda7af5f1bf7248aa25cadf7804e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/DesertMountain.fbx using Guid(7eeda7af5f1bf7248aa25cadf7804e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60457e2395621643acae58cf29f521e4') in 0.014603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/dae/detail_rocks_small.dae
+  artifactKey: Guid(2c1f7fd1811910342b318ea9270335c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/dae/detail_rocks_small.dae using Guid(2c1f7fd1811910342b318ea9270335c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e10e2df6222eeda3d2a6305dc9015e') in 0.014639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/Candy2.fbx
+  artifactKey: Guid(c4d5949fad8f91146994bff78a215afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/Candy2.fbx using Guid(c4d5949fad8f91146994bff78a215afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7cc9a130d5e786dd1f2904423bbe3e') in 0.013137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/detail_forestA.obj
+  artifactKey: Guid(de978224fa1467447b80cd43a0eda8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/detail_forestA.obj using Guid(de978224fa1467447b80cd43a0eda8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269fd11aee278a0580843e49ea847baa') in 0.027537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01a.fbx
+  artifactKey: Guid(69a3c9e4919786945bb0a5b00df645f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01a.fbx using Guid(69a3c9e4919786945bb0a5b00df645f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760f862a4b173cf5daa3adeca2eac3da') in 0.028146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Fireplace_01a.fbx
+  artifactKey: Guid(318de2124ee5d7b409a9d921d96a4c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Fireplace_01a.fbx using Guid(318de2124ee5d7b409a9d921d96a4c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c204fabf3c1b4eae4c3a51fd2a4367') in 0.027348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/SimpleSky/Models/Cloud_01.fbx
+  artifactKey: Guid(d6a294bdf7386d64f8c846e5ac334ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleSky/Models/Cloud_01.fbx using Guid(d6a294bdf7386d64f8c846e5ac334ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291d356fb56c04849281e6c494ff89a4') in 0.012710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/detail_rocks_small.obj
+  artifactKey: Guid(e51da84acb224b84ca6200650dec0ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/detail_rocks_small.obj using Guid(e51da84acb224b84ca6200650dec0ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a706f0f8967aa897d5d44b46b0e44ddd') in 0.015475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Gray_01b.fbx
+  artifactKey: Guid(7c9a7ec1e6f436044a88660f481271e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Gray_01b.fbx using Guid(7c9a7ec1e6f436044a88660f481271e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda6efc4673dcea9936451621a98275d') in 0.024060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01h.fbx
+  artifactKey: Guid(5c81b1964c400964a936eb655fb29c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01h.fbx using Guid(5c81b1964c400964a936eb655fb29c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baad44827cb96902f1144c5f49b19cec') in 0.024880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01a.fbx
+  artifactKey: Guid(976a0e6dad5486043925466ce216784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01a.fbx using Guid(976a0e6dad5486043925466ce216784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92eecafcec7b13a948fc857e622329d1') in 0.024937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01f.fbx
+  artifactKey: Guid(865d7f5938b04864993c64fd4a40fc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01f.fbx using Guid(865d7f5938b04864993c64fd4a40fc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d2c79197283b6d4a4c7f6ff4be10a6') in 0.024067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Cloud_01b.fbx
+  artifactKey: Guid(a29e63507c93f1d4fa295165f7df7553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Cloud_01b.fbx using Guid(a29e63507c93f1d4fa295165f7df7553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcb31d5541c5f8ef354d9502d4ad3ec') in 0.026331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DownloadedAssets/SimpleSky/Models/Cloud_02.fbx
+  artifactKey: Guid(c943ee3841fcbd94d9630c5e4529b603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleSky/Models/Cloud_02.fbx using Guid(c943ee3841fcbd94d9630c5e4529b603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab30c25d55fb4c41ece402150f8d0da') in 0.012486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/dae/detail_treeA.dae
+  artifactKey: Guid(d1d587194ea97c34bad52aa5c1819f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/dae/detail_treeA.dae using Guid(d1d587194ea97c34bad52aa5c1819f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272b99435f435bd54604eac22837a512') in 0.018540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DownloadedAssets/SimpleSky/Models/Cloud_05.fbx
+  artifactKey: Guid(5d92abef242cfcc4781ac2ae661d8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleSky/Models/Cloud_05.fbx using Guid(5d92abef242cfcc4781ac2ae661d8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931d3a80b2673b525f73a10003347ad5') in 0.012365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Models/Bush_01.fbx
+  artifactKey: Guid(d8ea93d2d4757e444a5349f4bc849128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Models/Bush_01.fbx using Guid(d8ea93d2d4757e444a5349f4bc849128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2ddd26bc5b56b63680284b3c61c77a') in 0.019122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Grass_Dry_01b.fbx
+  artifactKey: Guid(27d1aee1fb747cd4eaf53d00fb2dc9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Grass_Dry_01b.fbx using Guid(27d1aee1fb747cd4eaf53d00fb2dc9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3259a66cb820aa38923ef7ef06af200f') in 0.029639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DownloadedAssets/SimpleSky/Models/Cloud_04.fbx
+  artifactKey: Guid(5df7daeab707230409664c66ca47c5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleSky/Models/Cloud_04.fbx using Guid(5df7daeab707230409664c66ca47c5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3862ae3a13245e5d400dcb4f501521da') in 0.015713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Cactus_01b.fbx
+  artifactKey: Guid(e4473e54f875dd14e9e7bdd6b9ab66ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Cactus_01b.fbx using Guid(e4473e54f875dd14e9e7bdd6b9ab66ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df4a8bbdb8bf8aa650b95c641623c5a') in 0.027495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/dae/barracks.dae
+  artifactKey: Guid(49a0f62ef93fb8546ab4346c7bb8b190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/dae/barracks.dae using Guid(49a0f62ef93fb8546ab4346c7bb8b190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3f4eac71e09d28a2b992fffdecd64b') in 0.027559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01g.fbx
+  artifactKey: Guid(e2e76d0c1623c824593db8fbb2dfa76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01g.fbx using Guid(e2e76d0c1623c824593db8fbb2dfa76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e97fa32f45409b7298b0f9c4619db67') in 0.024343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01d.fbx
+  artifactKey: Guid(9decbebaa9f18214eb92f99b7c6af761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01d.fbx using Guid(9decbebaa9f18214eb92f99b7c6af761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadf1f4ad35ad2bc0fd61394d841990f') in 0.026334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01c.fbx
+  artifactKey: Guid(f55612afa7220524ebdfc67272940087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01c.fbx using Guid(f55612afa7220524ebdfc67272940087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712433a9fdd17134efaa52526fa41b2c') in 0.026485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/EvilCastle.fbx
+  artifactKey: Guid(babdee3501cc4c544857998486e731f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/EvilCastle.fbx using Guid(babdee3501cc4c544857998486e731f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98008f4c9ee55c37c7faa3a812060de0') in 0.013666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Barrel_01a.fbx
+  artifactKey: Guid(c9bc4f7460ea93e468ad3ff57129172b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Barrel_01a.fbx using Guid(c9bc4f7460ea93e468ad3ff57129172b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e624d858b37496a1500ac6bd0e8b629f') in 0.034245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01a.fbx
+  artifactKey: Guid(2d30a0ae130af5d49ba0ab38442d1387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01a.fbx using Guid(2d30a0ae130af5d49ba0ab38442d1387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3930d74cd61032b779efdbca640d0568') in 0.025043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Cloud_01a.fbx
+  artifactKey: Guid(f751a228a8d364c4eb3cf09bca0b2033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Cloud_01a.fbx using Guid(f751a228a8d364c4eb3cf09bca0b2033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2f68fa66710173fa43594a2550f8d5') in 0.023408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01a.fbx
+  artifactKey: Guid(7bc861246c24a1542915bd570e14168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01a.fbx using Guid(7bc861246c24a1542915bd570e14168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a28ea7f5b2bc7648667fce85af5994') in 0.026492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wehicule_Raft_01a.fbx
+  artifactKey: Guid(61895aefa3684d3448b565d3bfb3da38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wehicule_Raft_01a.fbx using Guid(61895aefa3684d3448b565d3bfb3da38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdc43a85f33f43e8e2313e256e162b0') in 0.032459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Models/Cloud1.fbx
+  artifactKey: Guid(ba90c7e89ce8fb847b770b7be3fc7975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Models/Cloud1.fbx using Guid(ba90c7e89ce8fb847b770b7be3fc7975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8215ac61d8f41d5dd229ac8f870864e7') in 0.011014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Sand_01b.fbx
+  artifactKey: Guid(5b9a48987d3e1c2469a80bcacfdcb363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Sand_01b.fbx using Guid(5b9a48987d3e1c2469a80bcacfdcb363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc2754a4b51c1c8339ebc5aba44d4bf') in 0.026455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Cactus_01a.fbx
+  artifactKey: Guid(df3ed5cd4974f8e4cafc5dadbe447264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Cactus_01a.fbx using Guid(df3ed5cd4974f8e4cafc5dadbe447264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd7f0ee209d604b6a7b32296834ac65') in 0.025839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/detail_treeC.obj
+  artifactKey: Guid(003e3207082fdaa4593966156e0ac72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/detail_treeC.obj using Guid(003e3207082fdaa4593966156e0ac72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47397697e3c8cfffaabf10549de1671') in 0.023138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Oar_01a.fbx
+  artifactKey: Guid(0e4c850cf404b7d4a94df8dbe428605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Prop_Oar_01a.fbx using Guid(0e4c850cf404b7d4a94df8dbe428605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f815f2067a7ef8906f393304e9199bb0') in 0.026960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01a.fbx
+  artifactKey: Guid(187a666634c41034b9bb353a2e23dfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01a.fbx using Guid(187a666634c41034b9bb353a2e23dfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9730477f38808114e3377dab76a260') in 0.024039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01i.fbx
+  artifactKey: Guid(fc6aa6393b01d4744ab684dde56c9efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01i.fbx using Guid(fc6aa6393b01d4744ab684dde56c9efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5115721c00c05e71b55f75a639a93b1') in 0.025037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01d.fbx
+  artifactKey: Guid(63b9d76bef215494ba3660400e1185e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01d.fbx using Guid(63b9d76bef215494ba3660400e1185e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243e1b8c4ba96abe114f931fed0c2fe8') in 0.025457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/dae/bridge_roofed.dae
+  artifactKey: Guid(c37f388a4cb2bd94ea2e0e9a134c5243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/dae/bridge_roofed.dae using Guid(c37f388a4cb2bd94ea2e0e9a134c5243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16774e7d3ad9fb88de6cfa2e79efc160') in 0.019172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/Factory.fbx
+  artifactKey: Guid(7b6877e76b3882549bdac7c390b0efd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/Factory.fbx using Guid(7b6877e76b3882549bdac7c390b0efd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f145e0b3be63bb8c40d8fd3c3b152808') in 0.014037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01e.fbx
+  artifactKey: Guid(ba0598396b886f349b14733c8e85ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01e.fbx using Guid(ba0598396b886f349b14733c8e85ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00fdf60be266060ad16d3930e9066d4') in 0.025228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/BeachShore.fbx
+  artifactKey: Guid(0164b949b56b05642992be3ce4f5a9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/BeachShore.fbx using Guid(0164b949b56b05642992be3ce4f5a9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0a1a8c557ff8ed496b0179aabbc656') in 0.011995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01b.fbx
+  artifactKey: Guid(105eaf64592d4d54c845376a4620b606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01b.fbx using Guid(105eaf64592d4d54c845376a4620b606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789c4e3675ad91be6a22856bc357ec4f') in 0.026299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Prop_washing_Comp.fbx
+  artifactKey: Guid(43262594877de46449ea5e7f4e204f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Prop_washing_Comp.fbx using Guid(43262594877de46449ea5e7f4e204f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b67ebaeb71e570ad168aaf8b39d812f') in 0.028884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadL_detail.dae
+  artifactKey: Guid(e5e0d9ea606492f49a94f9e6fe206a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadL_detail.dae using Guid(e5e0d9ea606492f49a94f9e6fe206a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369d4b55bee07dc03a04c0a7ded83649') in 0.019680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadM_detail.dae
+  artifactKey: Guid(85b68c7c6c414354497def20d37acb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_rock_roadM_detail.dae using Guid(85b68c7c6c414354497def20d37acb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb3def9676c60144ae58a300652d47b') in 0.021648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/detail_rocks.obj
+  artifactKey: Guid(868bc88347438464eb012cd1cd1644fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/detail_rocks.obj using Guid(868bc88347438464eb012cd1cd1644fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb9bd701ec3a7a18e42c7203fdd2a9a') in 0.016957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_waterB.dae
+  artifactKey: Guid(e3b8078ede434144888c75e4f60d73a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_waterB.dae using Guid(e3b8078ede434144888c75e4f60d73a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85186b75f1ea3fb8d88040eaf43fc891') in 0.018458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DownloadedAssets/SimpleSky/Models/Cloud_03.fbx
+  artifactKey: Guid(1b2c48376dafb734ab58d2226e1b7747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleSky/Models/Cloud_03.fbx using Guid(1b2c48376dafb734ab58d2226e1b7747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e35af3851ccc5b2c997e8e101cb2df1') in 0.011176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/fbx/detail_treeA.fbx
+  artifactKey: Guid(e35cebbcca1017541bcb5b3b2ae138bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/fbx/detail_treeA.fbx using Guid(e35cebbcca1017541bcb5b3b2ae138bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f7375c38faeccaeae069b59263cb68') in 0.017628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/castle.obj
+  artifactKey: Guid(e9358f238c7a1a447bab113eff683838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/obj/castle.obj using Guid(e9358f238c7a1a447bab113eff683838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183d1bba1cf86dfaf4f8bf68c4fdbcac') in 0.027879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Grass_01a.fbx
+  artifactKey: Guid(91fd3c8f9c699814d93d60cd244fcb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Grass_01a.fbx using Guid(91fd3c8f9c699814d93d60cd244fcb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adfbd9e7930d22de2bc98c04c859d08') in 0.027702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadA_detail.dae
+  artifactKey: Guid(f0223ffbf2a2d3e4b921d3581cb0e917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadA_detail.dae using Guid(f0223ffbf2a2d3e4b921d3581cb0e917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd352e414024e8b1ed552eff45f0fd6f4') in 0.023257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadC_detail.dae
+  artifactKey: Guid(48738148456242d489d51de084f0358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_forest_roadC_detail.dae using Guid(48738148456242d489d51de084f0358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275f8a6261dc80f4d18500d486e8982c') in 0.021428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/dae/detail_forestB.dae
+  artifactKey: Guid(bf265e55e3802de4793b67177ee841b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/dae/detail_forestB.dae using Guid(bf265e55e3802de4793b67177ee841b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a45b41e027d69e1a1fa301c669814c') in 0.019582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadL.dae
+  artifactKey: Guid(6c9d2d020ad3b734aa9111661d30d9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_roadL.dae using Guid(6c9d2d020ad3b734aa9111661d30d9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65f6cc826b5c17f582f1b171e8a22f7') in 0.018461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/fbx/archeryrange.fbx
+  artifactKey: Guid(d5ef0e167d222b04eb8bafe10d39870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/fbx/archeryrange.fbx using Guid(d5ef0e167d222b04eb8bafe10d39870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53228402d05fff015173c77bf2fdeeb0') in 0.027396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_detail.dae
+  artifactKey: Guid(ea924f8ac0d39514584a5e96a60ae1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/dae/hex_sand_detail.dae using Guid(ea924f8ac0d39514584a5e96a60ae1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988084bb68add772599ede47d7563f96') in 0.018477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01b.fbx
+  artifactKey: Guid(f30375007a8c1644fbadbefd4eb41e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01b.fbx using Guid(f30375007a8c1644fbadbefd4eb41e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00628a3c28586a28e371b6db934454ba') in 0.026330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01b.fbx
+  artifactKey: Guid(58ac0d160fc2622418e52717f9401fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01b.fbx using Guid(58ac0d160fc2622418e52717f9401fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1688d2f486678115f2c3df45733984ef') in 0.026569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/square/dae/square_forest_roadD.dae
+  artifactKey: Guid(e0e0ec0e130bedd4b986f954fbd8f41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/square/dae/square_forest_roadD.dae using Guid(e0e0ec0e130bedd4b986f954fbd8f41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fee2cd391e59e2abb93fe5d06ce475') in 0.017291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01h.fbx
+  artifactKey: Guid(70d30c80ed9e899468d691341a97a907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01h.fbx using Guid(70d30c80ed9e899468d691341a97a907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b39822b2e96f55617a8d831720f68d') in 0.025947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/square/dae/square_forest_roadA.dae
+  artifactKey: Guid(cebebde65b6230549a3847e73e1ee414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/square/dae/square_forest_roadA.dae using Guid(cebebde65b6230549a3847e73e1ee414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7309129dacb2e1ef7512f025aaa5cd7c') in 0.021013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/square/obj/square_sand_roadA_detail.obj
+  artifactKey: Guid(5cf7a2adc1b17ec4ab3c1e12170fe50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/square/obj/square_sand_roadA_detail.obj using Guid(5cf7a2adc1b17ec4ab3c1e12170fe50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6f918e30678976b5ce7f07cc42b004') in 0.026059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.334 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.863 seconds
+Domain Reload Profiling: 1195ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (863ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (377ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3639 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (157.2 KB). Loaded Objects now: 4188.
+Memory consumption went from 218.9 MB to 218.8 MB.
+Total: 3.075000 ms (FindLiveObjects: 0.236000 ms CreateObjectMapping: 0.091500 ms MarkObjects: 2.642900 ms  DeleteObjects: 0.103800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 585.397822 seconds.
+  path: Assets/Prefabs/Cards/CardScans/marynarz.png
+  artifactKey: Guid(a97d68d904cfdaf43ae5107ee8a06b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cards/CardScans/marynarz.png using Guid(a97d68d904cfdaf43ae5107ee8a06b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585234efb78764559cd1ee5458dab3a0') in 0.060020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.330 seconds
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.843 seconds
+Domain Reload Profiling: 1172ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (202ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (843ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3639 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (157.3 KB). Loaded Objects now: 4193.
+Memory consumption went from 220.8 MB to 220.7 MB.
+Total: 3.557500 ms (FindLiveObjects: 0.428100 ms CreateObjectMapping: 0.196500 ms MarkObjects: 2.816600 ms  DeleteObjects: 0.115600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.333 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.889 seconds
+Domain Reload Profiling: 1221ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (889ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (394ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3639 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (157.1 KB). Loaded Objects now: 4196.
+Memory consumption went from 222.8 MB to 222.6 MB.
+Total: 3.920000 ms (FindLiveObjects: 0.230800 ms CreateObjectMapping: 0.091800 ms MarkObjects: 3.455000 ms  DeleteObjects: 0.141400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1846.818195 seconds.
+  path: Assets/Prefabs/Jungle/Jungle1.prefab
+  artifactKey: Guid(cf2ad060e672c064b8a59ccf8d9d0d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Jungle/Jungle1.prefab using Guid(cf2ad060e672c064b8a59ccf8d9d0d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8566db5448d2d5a2de4dc51ecd6d11') in 0.105684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 266
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Jungle/Jungle3.prefab
+  artifactKey: Guid(fc83d3140c371a742ad0d7eba0643eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Jungle/Jungle3.prefab using Guid(fc83d3140c371a742ad0d7eba0643eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a97307c055663b1824a8144a201e3f') in 0.036985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 290
+========================================================================
+Received Import Request.
+  Time since last request: 1.262910 seconds.
+  path: Assets/Prefabs/River/River1.asset
+  artifactKey: Guid(e9fee472f8b523a448b6afc4e322b15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/River/River1.asset using Guid(e9fee472f8b523a448b6afc4e322b15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edfa64e6d31ba98078ff0efe3184f8f') in 0.018925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/River/River1.prefab
+  artifactKey: Guid(e4b01834c7ace56479b05f15faaf2ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/River/River1.prefab using Guid(e4b01834c7ace56479b05f15faaf2ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e89eb8082a23e94b7362d8ccb774071') in 0.004205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Prefabs/River/River3.asset
+  artifactKey: Guid(a4c07853379e1af4e94ac4bc5eb9f4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/River/River3.asset using Guid(a4c07853379e1af4e94ac4bc5eb9f4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c78d37d0fb5d25ff0e5aaabdfaac1fc') in 0.009085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/River/River2.prefab
+  artifactKey: Guid(73446c3a2a04df64481453f52c73ee71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/River/River2.prefab using Guid(73446c3a2a04df64481453f52c73ee71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c47a13c134b0089dc8d074efb822769') in 0.007001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefabs/River/River4.asset
+  artifactKey: Guid(8c2ca9471a7e7bf4cbd0822e3b4b6582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/River/River4.asset using Guid(8c2ca9471a7e7bf4cbd0822e3b4b6582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327b06d9d79ff78c10a49397c9509688') in 0.008996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.132012 seconds.
+  path: Assets/Prefabs/Village/PalmTree_05.prefab
+  artifactKey: Guid(79835cffb24621c49965b5db191c214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/PalmTree_05.prefab using Guid(79835cffb24621c49965b5db191c214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb228f5c188e51db51dd97ae3ecb5f2') in 0.006968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Village/Village1.prefab
+  artifactKey: Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village1.prefab using Guid(1d4b3d85e4abccf4d9c8ed6ac0e849fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf41a1bc7d70aa7adcd978ccc46a74e') in 0.060774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 122
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Village/Village4.asset
+  artifactKey: Guid(b70e4846b6cc93941be61dcb3f6fba31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village4.asset using Guid(b70e4846b6cc93941be61dcb3f6fba31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ade612a2be8720616e0259b44bffa4') in 0.016470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Village/Village2.asset
+  artifactKey: Guid(e582fc5c4dd383444bc85b1d793960b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village2.asset using Guid(e582fc5c4dd383444bc85b1d793960b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfb897b5380486ad1791d31257b3174') in 0.011167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/Village/Village4.prefab
+  artifactKey: Guid(c8aec610453b24d47b7981ea5ec328eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Village/Village4.prefab using Guid(c8aec610453b24d47b7981ea5ec328eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe0f173dbb1dec5621a64bb54c72a38') in 0.065468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.443 seconds
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.845 seconds
+Domain Reload Profiling: 1287ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (845ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (455ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3640 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (157.3 KB). Loaded Objects now: 4200.
+Memory consumption went from 225.2 MB to 225.1 MB.
+Total: 3.100100 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.092400 ms MarkObjects: 2.643000 ms  DeleteObjects: 0.115700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Operacja We/Wy zosta³a przerwana z powodu zakoñczenia w¹tku lub ¿¹dania aplikacji.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
