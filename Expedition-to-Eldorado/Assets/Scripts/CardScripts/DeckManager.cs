@@ -8,11 +8,13 @@ public class DeckManager : MonoBehaviour
     [SerializeField] List<GameObject> cardsInDeck;
     [SerializeField] GameObject mainCamera;
     [SerializeField]List<GameObject> cardsOnHand;
-    int viewNumber = 0; //TODO - uzaleznic widok kamery od pozycji kart
+    [SerializeField] float speedOfCard = 5;
+    [SerializeField] double spaceBetweenCard = 5; //chyba zle ale cosz
+    int viewNumber = (int)ViewTypes.CardsOnly; //TODO - uzaleznic widok kamery od pozycji kart
     int numberOfCardsOnHand = 4; //zostawilem na wypadek gdybysmy chcieli to zmienic
     //Obecnie tworzony jest widok 3 - widok na karty
 
-    
+
 
     // Start is called before the first frame update
     void Start()
@@ -30,8 +32,8 @@ public class DeckManager : MonoBehaviour
         int viewModifierZ = 0;
         switch (viewNumber) {
             case (int)ViewTypes.CardsOnly:
-                viewModifierY = -26;
-                viewModifierZ = 20;
+                viewModifierY = -18;
+                viewModifierZ = 10;
                 break;
             case (int)ViewTypes.BoardCards:
                 break;
@@ -40,10 +42,24 @@ public class DeckManager : MonoBehaviour
                 break;
         }
 
-
         //TODO wyliczyc pozycje kart z modyfikatorem
+        Vector3[] cardPosition = new Vector3[4];
+        double range = spaceBetweenCard * cardsOnHand.Count;
+        double spaces = range / (cardsOnHand.Count - 1);
 
-        //TODO zastosowac tego larpa
+        for (int i = 0; i < cardsOnHand.Count; i++)
+        {
+            cardPosition[i].x = (float)(mainCamera.transform.position.x + (i * spaces) - range/2);
+            cardPosition[i].y = mainCamera.transform.position.y + viewModifierY;
+            cardPosition[i].z = mainCamera.transform.position.z + viewModifierZ;
+        }
+
+        //TODO zastosowac ta interpolacje 
+        for(int i = 0; i < cardsOnHand.Count; i++)
+        {
+            cardsOnHand[i].transform.position = Vector3.Lerp(cardsOnHand[i].transform.position, cardPosition[i], speedOfCard * Time.deltaTime);
+        }
+
     }
 
     public void drawCards()
