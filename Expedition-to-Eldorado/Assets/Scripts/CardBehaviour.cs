@@ -7,36 +7,19 @@ public class CardBehaviour : MonoBehaviour
 {
     [SerializeField] public int Power;
     [SerializeField] public string NameOfCard;
-    [SerializeField] public int TypeOfCard;
+    [SerializeField] public string TypeOfCard;
+    private bool onHand { get; set; } 
 
 
-    private void OnEnable()
+    public void setOnHand(bool isOnHand)
     {
-        MouseController.instance.OnLeftMouseClick += OnLeftMouseClick;
-        MouseController.instance.OnRightMouseClick += OnRightMouseClick;
-    }
-
-    private void OnDisable() 
-    {
-        MouseController.instance.OnLeftMouseClick -= OnLeftMouseClick;
-        MouseController.instance.OnRightMouseClick -= OnRightMouseClick;
-    }
-
-    private void OnRightMouseClick(RaycastHit hit)
-    {
-        throw new NotImplementedException();
-    }
-
-    private void OnLeftMouseClick(RaycastHit hit)
-    {
-        Debug.Log(this.Power);
-        Debug.Log(this.NameOfCard);
+        this.onHand = isOnHand;
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        this.onHand = false;
     }
 
     // Update is called once per frame

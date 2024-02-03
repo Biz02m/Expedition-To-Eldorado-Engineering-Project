@@ -364,6 +364,7 @@
 "Assets/DownloadedAssets/Demo/Low poly package/Scripts/GameHandler.cs"
 "Assets/DownloadedAssets/Demo/Low poly package/Scripts/ScreenshotHandler.cs"
 "Assets/Scripts/CardBehaviour.cs"
+"Assets/Scripts/DeckManager.cs"
 "Assets/Scripts/EventClick.cs"
 "Assets/Scripts/HexCell.cs"
 "Assets/Scripts/HexGrid.cs"
