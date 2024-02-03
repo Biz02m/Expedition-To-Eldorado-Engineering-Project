@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mountains
   m_EditorClassIdentifier: 
   ID: 0
-  <Name>k__BackingField: Mountain
+  <Name>k__BackingField: Mountains
   <Description>k__BackingField: 
   <Color>k__BackingField: {r: 0, g: 0, b: 0, a: 0}
   <Prefab>k__BackingField: {fileID: 6323790754560487331, guid: 205947b468b706a449170ed6cd217f35, type: 3}

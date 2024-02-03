@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e938959ce467b434ca761bdf7f2154ee, type: 3}
   m_Name: Village1
   m_EditorClassIdentifier: 
-  ID: 1
-  <Name>k__BackingField: Beach
+  ID: 4
+  <Name>k__BackingField: Village1
   <Description>k__BackingField: 
   <Color>k__BackingField: {r: 0, g: 0, b: 0, a: 0}
   <Prefab>k__BackingField: {fileID: 5350298809700390065, guid: 1d4b3d85e4abccf4d9c8ed6ac0e849fd, type: 3}
