@@ -7,11 +7,13 @@ public class DeckManager : MonoBehaviour
 {
     [SerializeField] List<GameObject> cardsInDeck;
     [SerializeField] GameObject mainCamera;
-    [SerializeField]List<GameObject> cardsOnHand;
+    [SerializeField] List<GameObject> cardsOnHand;
     [SerializeField] float speedOfCard = 5;
-    [SerializeField] double spaceBetweenCard = 5; //chyba zle ale cosz
-    int viewNumber = (int)ViewTypes.CardsOnly; //TODO - uzaleznic widok kamery od pozycji kart
+    [SerializeField] double spaceBetweenCard = 5; 
+    [SerializeField] List<GameObject> starterCardPack;
+    int viewNumber = (int)ViewTypes.CardsOnly; 
     int numberOfCardsOnHand = 4; //zostawilem na wypadek gdybysmy chcieli to zmienic
+    int cursor = -1;
     //Obecnie tworzony jest widok 3 - widok na karty
 
 
@@ -19,15 +21,15 @@ public class DeckManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        drawCards();
+        starterPackSelection();
+        drawCardsFromDeck();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        //TODO wybrac modyfikator w zaleznosci od widoku
+        //wybrac modyfikator w zaleznosci od widoku
         int viewModifierY = 0; 
         int viewModifierZ = 0;
         switch (viewNumber) {
@@ -42,7 +44,10 @@ public class DeckManager : MonoBehaviour
                 break;
         }
 
-        //TODO wyliczyc pozycje kart z modyfikatorem
+        //Interakcja gracza
+        handlePlayerInput();
+
+        //wyliczyczenie pozycji kart z modyfikatorem
         Vector3[] cardPosition = new Vector3[4];
         double range = spaceBetweenCard * cardsOnHand.Count;
         double spaces = range / (cardsOnHand.Count - 1);
@@ -52,9 +57,14 @@ public class DeckManager : MonoBehaviour
             cardPosition[i].x = (float)(mainCamera.transform.position.x + (i * spaces) - range/2);
             cardPosition[i].y = mainCamera.transform.position.y + viewModifierY;
             cardPosition[i].z = mainCamera.transform.position.z + viewModifierZ;
+
+            if(cursor == i + 1)
+            {
+                cardPosition[i].z += 4;
+            }
         }
 
-        //TODO zastosowac ta interpolacje 
+        //zastosowac ta interpolacje (daje ten efekt ruchu) 
         for(int i = 0; i < cardsOnHand.Count; i++)
         {
             cardsOnHand[i].transform.position = Vector3.Lerp(cardsOnHand[i].transform.position, cardPosition[i], speedOfCard * Time.deltaTime);
@@ -62,7 +72,49 @@ public class DeckManager : MonoBehaviour
 
     }
 
-    public void drawCards()
+    public void handlePlayerInput()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            if (cursor > 1 && cursor <= cardsOnHand.Count)
+            {
+                cursor--;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            if (cursor >= 1 && cursor < cardsOnHand.Count)
+            {
+                cursor++;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            cursor *= -1;
+        }
+
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            if (cursor >= 1 && cursor <= cardsOnHand.Count)
+            {
+                Debug.Log(cardsOnHand[cursor - 1].GetComponent<CardBehaviour>().NameOfCard);
+            }
+        }
+    }
+
+    public void starterPackSelection()
+    {
+        for (int i = 0; i < numberOfCardsOnHand; i++)
+        {
+            int index = Random.Range(0, starterCardPack.Count);
+            cardsInDeck.Add(Instantiate(starterCardPack[index]));
+            cardsInDeck[i].SetActive(false);
+        }
+    }
+
+    public void drawCardsFromDeck()
     {
         for(int i = 0; i < numberOfCardsOnHand; i++)
         {

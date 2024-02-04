@@ -3787,11 +3787,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1385626732 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3863177216940408413, guid: 2ac9b1f83b5d5e949a0c0c502d600cb4, type: 3}
-  m_PrefabInstance: {fileID: 8853968474175754834}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1445592313
 GameObject:
   m_ObjectHideFlags: 0
@@ -3836,19 +3831,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a973260fe773e044b71d890b32e052f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardsInDeck:
-  - {fileID: 1732356263}
-  - {fileID: 2011766343}
-  - {fileID: 1385626732}
-  - {fileID: 1385626732}
-  - {fileID: 1732356263}
+  cardsInDeck: []
   mainCamera: {fileID: 963194225}
   cardsOnHand: []
---- !u!1 &1732356263 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3863177216940408413, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
-  m_PrefabInstance: {fileID: 1742215849}
-  m_PrefabAsset: {fileID: 0}
+  speedOfCard: 5
+  spaceBetweenCard: 5
+  starterCardPack:
+  - {fileID: 3863177216940408413, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
+  - {fileID: 3863177216940408413, guid: 9dddc82cebb3e2e4f8fe6d31cc388ce8, type: 3}
+  - {fileID: 3863177216940408413, guid: 2ac9b1f83b5d5e949a0c0c502d600cb4, type: 3}
 --- !u!1001 &1742215849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3861,17 +3852,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlobTroterCard
       objectReference: {fileID: 0}
+    - target: {fileID: 3863177216940408413, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.39
+      value: 40.219997
       objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.94
+      value: 31.330002
       objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.45
+      value: -14.400001
       objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3906,11 +3901,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
---- !u!1 &2011766343 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3863177216940408413, guid: 9dddc82cebb3e2e4f8fe6d31cc388ce8, type: 3}
-  m_PrefabInstance: {fileID: 5211024326748409800}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2013067405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3923,17 +3913,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlobTroterCard (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3863177216940408413, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 54.48
+      value: 54.309998
       objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.53
+      value: 30.920002
       objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.25
+      value: -14.200001
       objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: a17c3e9244cef55438f4bcef5a364b19, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3980,17 +3974,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MarynarzCard
       objectReference: {fileID: 0}
+    - target: {fileID: 3863177216940408413, guid: 9dddc82cebb3e2e4f8fe6d31cc388ce8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: 9dddc82cebb3e2e4f8fe6d31cc388ce8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 32.95
+      value: 32.78
       objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: 9dddc82cebb3e2e4f8fe6d31cc388ce8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.72
+      value: 31.11
       objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: 9dddc82cebb3e2e4f8fe6d31cc388ce8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.1
+      value: -14.05
       objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: 9dddc82cebb3e2e4f8fe6d31cc388ce8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4037,17 +4035,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurystkaCard
       objectReference: {fileID: 0}
+    - target: {fileID: 3863177216940408413, guid: 2ac9b1f83b5d5e949a0c0c502d600cb4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: 2ac9b1f83b5d5e949a0c0c502d600cb4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 47.59
+      value: 47.42
       objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: 2ac9b1f83b5d5e949a0c0c502d600cb4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.609999
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: 2ac9b1f83b5d5e949a0c0c502d600cb4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.250001
+      value: -14.200002
       objectReference: {fileID: 0}
     - target: {fileID: 3865669217374351964, guid: 2ac9b1f83b5d5e949a0c0c502d600cb4, type: 3}
       propertyPath: m_LocalRotation.w
