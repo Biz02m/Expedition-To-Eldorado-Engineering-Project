@@ -7,17 +7,12 @@ public class HexGrid : MonoBehaviour
 {
     [field: SerializeField] public HexOrientation Orientation { get; private set; }
     [field: SerializeField] public int Size { get; private set; }
-    //[field:SerializeField] public int Width { get; private set; }
-    //[field: SerializeField] public int Height { get; private set; }
     [field: SerializeField] public int HexSize { get; private set; }
-    [field: SerializeField] public GameObject HexPrefab { get; private set; }
     [field:SerializeField] public int BatchSize { get; private set; }
-    [field: SerializeField] public int BoardPiece { get; private set; }
-    //public object Board { get; private set; }
+    [SerializeField] public BoardSingleton.BoardPiece BoardPieceLetter;
+    public int BoardPiece { get; private set; }
 
     [SerializeField] private List<HexCell> cells = new List<HexCell>();
-    //[SerializeField] public List<TerrainType> TerrainTypes = new List<TerrainType>();
-    //private Board Board = new Board();
     private Task<List<HexCell>> hexGenerationTask;
     private Vector3 gridOrigin;
     public event System.Action OnMapInfoGenerated;
@@ -27,6 +22,7 @@ public class HexGrid : MonoBehaviour
     private void Awake()
     {
         gridOrigin = transform.position;
+        BoardPiece = (int)BoardPieceLetter;
         //Board.SetBoardPieces();
     }
 

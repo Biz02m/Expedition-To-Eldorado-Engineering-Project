@@ -15,7 +15,7 @@ C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedi
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-54602
+62392
 Successfully changed project path to: C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado
 C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,518 @@ C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedi
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27972] Host "[IP] 172.21.96.1 [Port] 0 [Flags] 2 [Guid] 2552908731 [EditorId] 2552908731 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GIF448M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [41276] Host "[IP] 172.21.96.1 [Port] 0 [Flags] 2 [Guid] 4162732073 [EditorId] 4162732073 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GIF448M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27972] Host "[IP] 172.21.96.1 [Port] 0 [Flags] 2 [Guid] 2552908731 [EditorId] 2552908731 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GIF448M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [41276] Host "[IP] 172.21.96.1 [Port] 0 [Flags] 2 [Guid] 4162732073 [EditorId] 4162732073 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GIF448M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 16.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1 (4fc78088f837)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.17f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Flamaster333/Projects/Expedition-To-Eldorado-Engineering-Project/Expedition-to-Eldorado/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4626
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005247 seconds.
+- Loaded All Assemblies, in  0.333 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.273 seconds
+Domain Reload Profiling: 604ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (103ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (274ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (217ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.635 seconds
+Refreshing native plugins compatible for Editor in 4.93 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 1515ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (733ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (579ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3717 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (177.9 KB). Loaded Objects now: 4184.
+Memory consumption went from 150.2 MB to 150.0 MB.
+Total: 3.379000 ms (FindLiveObjects: 0.257100 ms CreateObjectMapping: 0.118700 ms MarkObjects: 2.860400 ms  DeleteObjects: 0.142200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 286073.146393 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/dae/bridge.dae
+  artifactKey: Guid(f9143558d05c0bd45ab8d53b4672b028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/dae/bridge.dae using Guid(f9143558d05c0bd45ab8d53b4672b028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fef6de66e5a0ef21fb7640ab0a5946f') in 0.150539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 14.331625 seconds.
+  path: Assets/DownloadedAssets/Demo/Low poly package/Meshes/Tree 4.fbx
+  artifactKey: Guid(780a5a83582857c4c91f685e71c2bd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Demo/Low poly package/Meshes/Tree 4.fbx using Guid(780a5a83582857c4c91f685e71c2bd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9a8cb7a722fa2657d47fa9eb241009') in 0.016040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.229218 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_water.obj
+  artifactKey: Guid(569e1f121276c8d4fb739efb36d655f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/tiles/hex/obj/hex_water.obj using Guid(569e1f121276c8d4fb739efb36d655f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c130d2dfcd18aa8fe4a14f64c6e2e9b2') in 0.098239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 8.724095 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/DesertMountain.fbx
+  artifactKey: Guid(7eeda7af5f1bf7248aa25cadf7804e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/DesertMountain.fbx using Guid(7eeda7af5f1bf7248aa25cadf7804e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c49ac648ce3b0f3f14781b36e4c12a9') in 0.063961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.418369 seconds.
+  path: Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/fbx/detail_rocks_small.fbx
+  artifactKey: Guid(a8272a59441be154da91de917f1b5833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/KayKit Medieval Builder Pack 1.0/Models/objects/fbx/detail_rocks_small.fbx using Guid(a8272a59441be154da91de917f1b5833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5887bfffc533e6c58d336d73a1e03a7e') in 0.015066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.466665 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Sand_01a.fbx
+  artifactKey: Guid(bc38a0273f1f5f84d9fa9c366c52779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Sand_01a.fbx using Guid(bc38a0273f1f5f84d9fa9c366c52779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01477de95575248c8b48677fcc26a709') in 0.038913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.493575 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01c.fbx
+  artifactKey: Guid(68df7f764ac622e47a27228d3e5d2d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01c.fbx using Guid(68df7f764ac622e47a27228d3e5d2d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba92ca503e1f5126400bdeb1480144bb') in 0.036351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 2.439640 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01d.fbx
+  artifactKey: Guid(dbbe3de1542c20c4e9b893ac48c416c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01d.fbx using Guid(dbbe3de1542c20c4e9b893ac48c416c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3437b0be03f6d7bf51e5b4b3e80377') in 0.153042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.829458 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01b.fbx
+  artifactKey: Guid(40d3e57c6089486449738df43792b6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01b.fbx using Guid(40d3e57c6089486449738df43792b6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746338afb1037996f5d215e0342d17e5') in 0.030383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.890384 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01b.fbx
+  artifactKey: Guid(f30375007a8c1644fbadbefd4eb41e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01b.fbx using Guid(f30375007a8c1644fbadbefd4eb41e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87b30bc1623c1361549075a3bc33730') in 0.034362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.499096 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01h.fbx
+  artifactKey: Guid(70d30c80ed9e899468d691341a97a907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01h.fbx using Guid(70d30c80ed9e899468d691341a97a907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecb1cb5676c126c58e835735c0ba79d') in 0.031531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.468293 seconds.
+  path: Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01d.fbx
+  artifactKey: Guid(63b9d76bef215494ba3660400e1185e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01d.fbx using Guid(63b9d76bef215494ba3660400e1185e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57f063d863e53a10012494a02555c0d') in 0.032928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.398407 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/Fence.fbx
+  artifactKey: Guid(017dba9d3f86e55429403ce249b9d374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/Fence.fbx using Guid(017dba9d3f86e55429403ce249b9d374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4320e3e4bc04471dfceab81b80245fa') in 0.013014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007887 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Models/Flower1.fbx
+  artifactKey: Guid(5e29eb426a57a534b92c5c4f3eb82a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Models/Flower1.fbx using Guid(5e29eb426a57a534b92c5c4f3eb82a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a05c17889a07e6987718487ab490aae') in 0.015442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.048074 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/Flowers.fbx
+  artifactKey: Guid(dcadbc0f2d7e2964e91f8be5365ff0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/Flowers.fbx using Guid(dcadbc0f2d7e2964e91f8be5365ff0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0b7bd7407c37f2c0c46ae584fa6654') in 0.017609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.556050 seconds.
+  path: Assets/DownloadedAssets/Demo/Low poly package/Meshes/Rock 1.fbx
+  artifactKey: Guid(abe3997fb7b50ed4c806575ef1d16afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Demo/Low poly package/Meshes/Rock 1.fbx using Guid(abe3997fb7b50ed4c806575ef1d16afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7738801a033ee4bde096ff00c4d940') in 0.011771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.384491 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/GlaciersOnWater.fbx
+  artifactKey: Guid(1d59c68e50152a7469718524c718b591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/GlaciersOnWater.fbx using Guid(1d59c68e50152a7469718524c718b591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d81ed851188cc99541b6c33cfa9621a') in 0.013121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.090982 seconds.
+  path: Assets/DownloadedAssets/SimpleLowPolyNature/Models/Grass3.fbx
+  artifactKey: Guid(5d1150fbaa24aa24da8c409fd45a1433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleLowPolyNature/Models/Grass3.fbx using Guid(5d1150fbaa24aa24da8c409fd45a1433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9c337b50021924c3915db86390603c') in 0.011692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.740535 seconds.
+  path: Assets/DownloadedAssets/SimpleNaturePack/Models/Ground_03.fbx
+  artifactKey: Guid(661464e19c087564badb2bf5230c842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/SimpleNaturePack/Models/Ground_03.fbx using Guid(661464e19c087564badb2bf5230c842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4de26ce49d1860fe53644ed6b40c28d') in 0.013158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.094673 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/HellTrees.fbx
+  artifactKey: Guid(363747246ac62bc46a1ac8459be93e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Objects/HellTrees.fbx using Guid(363747246ac62bc46a1ac8459be93e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4521acd6e1c7d7bbff18ced61bd337b8') in 0.014156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.170696 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex3.fbx
+  artifactKey: Guid(32bf8e89e0e369540a99872076a7ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex3.fbx using Guid(32bf8e89e0e369540a99872076a7ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773be487248f8cc11e3a003f5f21c814') in 0.014214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.166918 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex6.fbx
+  artifactKey: Guid(3809834aaf39bdb45aa59310501239af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex6.fbx using Guid(3809834aaf39bdb45aa59310501239af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6387f025f744fed70676d5d037e97bc5') in 0.013582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.096380 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex9.fbx
+  artifactKey: Guid(1341def1465b9ee42ab1a58327fc3676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex9.fbx using Guid(1341def1465b9ee42ab1a58327fc3676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be67a070bee6d32133db4a6415e2aa39') in 0.031530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.133815 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex12.fbx
+  artifactKey: Guid(a594cd8ba6e867f4699aa3d16d755581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex12.fbx using Guid(a594cd8ba6e867f4699aa3d16d755581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0c930db5493be0f3314b74e09d495b') in 0.046280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.378174 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex15.fbx
+  artifactKey: Guid(55d09edfc2148db468cee0245d195258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex15.fbx using Guid(55d09edfc2148db468cee0245d195258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d19a9052fd049ac6d1174b6d389b79') in 0.012216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.316813 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex18.fbx
+  artifactKey: Guid(71cd1ad80b827b441897f13882a924f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex18.fbx using Guid(71cd1ad80b827b441897f13882a924f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2b8c47a6a2539172b6e6d171f8abc2') in 0.012533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.253740 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex21.fbx
+  artifactKey: Guid(396774c0224816440b63acd8e0b85d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex21.fbx using Guid(396774c0224816440b63acd8e0b85d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddc7480c22dc0ac2acd814df8de10e2') in 0.011432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.148141 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex24.fbx
+  artifactKey: Guid(f2359381d1133ff48b72d11a9238f283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex24.fbx using Guid(f2359381d1133ff48b72d11a9238f283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609f9a4a760e9a5de44eeff701e4fb99') in 0.011599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.746340 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex27.fbx
+  artifactKey: Guid(f18add7e66c6e53428c87798c50cf2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex27.fbx using Guid(f18add7e66c6e53428c87798c50cf2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34ba5127fed41bb184fa6a3d79a327e') in 0.039458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.782014 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex30.fbx
+  artifactKey: Guid(dfbb1424bca38a94aa3a24e45b00f2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Hex30.fbx using Guid(dfbb1424bca38a94aa3a24e45b00f2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af35612eed2994c275d5ee278c768f13') in 0.040370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 26.984153 seconds.
+  path: Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Lake.fbx
+  artifactKey: Guid(1a6dcb961b8ee2a4eb42b0b33c1f8769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/Low Poly Hexagons/Assets/Models/Hexagons/Lake.fbx using Guid(1a6dcb961b8ee2a4eb42b0b33c1f8769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce9f3ba9ef1638f1d5f6ce6ef6db67d') in 0.045666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.057668 seconds.
+  path: Assets/DownloadedAssets/DavePixel/PirateCoin HDRP/Models/PirateCoin.fbx
+  artifactKey: Guid(5d0dbe9cd045eb6458b6aa0a6ffc0235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/DavePixel/PirateCoin HDRP/Models/PirateCoin.fbx using Guid(5d0dbe9cd045eb6458b6aa0a6ffc0235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989e273cec10115fe24d78858ab02a3a') in 0.055038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.476 seconds
+Refreshing native plugins compatible for Editor in 5.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.406 seconds
+Domain Reload Profiling: 1877ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1407ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (686ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (527ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 6.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (149.3 KB). Loaded Objects now: 4232.
+Memory consumption went from 147.0 MB to 146.8 MB.
+Total: 4.342000 ms (FindLiveObjects: 0.429300 ms CreateObjectMapping: 0.264800 ms MarkObjects: 3.506900 ms  DeleteObjects: 0.140000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.498 seconds
+Refreshing native plugins compatible for Editor in 5.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.413 seconds
+Domain Reload Profiling: 1904ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (239ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (687ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (524ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (149.3 KB). Loaded Objects now: 4235.
+Memory consumption went from 148.9 MB to 148.8 MB.
+Total: 4.008800 ms (FindLiveObjects: 0.286800 ms CreateObjectMapping: 0.230300 ms MarkObjects: 3.310600 ms  DeleteObjects: 0.180200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
