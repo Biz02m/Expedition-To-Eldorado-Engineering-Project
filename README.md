@@ -13,6 +13,9 @@ Engineering project for Computer Science Course at GUT in Interactive Intelligen
 Verstion of Unity: 2022.3.17  
 Project Type: Built-in 3D  
 When in Game mode you see whole program in turquise color (setted up in Edit->Preferences)
+For working git repository:  
+- Install: Git LFS (For large Unity files)
+- Execute command: `git config --system core.longpaths true` (because of long file names in Unity)
 
 ## Generating Board
 Parameters:
