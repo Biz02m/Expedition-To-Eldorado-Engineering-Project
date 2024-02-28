@@ -12,7 +12,7 @@ public class DeckManager : MonoBehaviour
     [SerializeField] double spaceBetweenCard = 5; 
     [SerializeField] List<GameObject> starterCardPack;
     int viewNumber = (int)ViewTypes.CardsOnly; 
-    int numberOfCardsOnHand = 4; //zostawilem na wypadek gdybysmy chcieli to zmienic
+    [SerializeField] int numberOfCardsOnHand = 7; //zostawilem na wypadek gdybysmy chcieli to zmienic
     int cursor = -1;
     //Obecnie tworzony jest widok 3 - widok na karty
 
@@ -38,6 +38,8 @@ public class DeckManager : MonoBehaviour
                 viewModifierZ = 10;
                 break;
             case (int)ViewTypes.BoardCards:
+                viewModifierY = -18;
+                viewModifierZ = 0;
                 break;
             case (int)ViewTypes.BoardOnly: //w kontekscie kart sa podobne
             case (int)ViewTypes.Shop:
@@ -48,9 +50,13 @@ public class DeckManager : MonoBehaviour
         handlePlayerInput();
 
         //wyliczyczenie pozycji kart z modyfikatorem
-        Vector3[] cardPosition = new Vector3[4];
+        Vector3[] cardPosition = new Vector3[numberOfCardsOnHand];
         double range = spaceBetweenCard * cardsOnHand.Count;
         double spaces = range / (cardsOnHand.Count - 1);
+        if (cardsOnHand.Count == 1)
+        {
+            spaces = 0;
+        }
 
         for (int i = 0; i < cardsOnHand.Count; i++)
         {
@@ -72,7 +78,7 @@ public class DeckManager : MonoBehaviour
 
     }
 
-    public void handlePlayerInput()
+    private void handlePlayerInput()
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
@@ -100,11 +106,12 @@ public class DeckManager : MonoBehaviour
             if (cursor >= 1 && cursor <= cardsOnHand.Count)
             {
                 Debug.Log(cardsOnHand[cursor - 1].GetComponent<CardBehaviour>().NameOfCard);
+                useCard();
             }
         }
     }
 
-    public void starterPackSelection()
+    private void starterPackSelection()
     {
         for (int i = 0; i < numberOfCardsOnHand; i++)
         {
@@ -114,7 +121,7 @@ public class DeckManager : MonoBehaviour
         }
     }
 
-    public void drawCardsFromDeck()
+    private void drawCardsFromDeck()
     {
         for(int i = 0; i < numberOfCardsOnHand; i++)
         {
@@ -124,6 +131,21 @@ public class DeckManager : MonoBehaviour
             cardsInDeck.RemoveAt(index);
         }
 
+    }
+
+    private void useCard()
+    {
+        if (cursor >= 1 && cursor <= cardsOnHand.Count)
+        {
+            cardsOnHand[cursor - 1].SetActive(false);
+            cardsInDeck.Add(cardsOnHand[cursor - 1]);
+            cardsOnHand.RemoveAt(cursor - 1);
+        }
+
+        if(cursor < 1 || cursor > cardsOnHand.Count)
+        {
+            cursor = 1;
+        }
     }
 
 }
