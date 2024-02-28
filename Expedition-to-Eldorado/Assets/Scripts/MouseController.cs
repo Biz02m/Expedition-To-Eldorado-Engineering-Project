@@ -30,8 +30,9 @@ public class MouseController : Singleton<MouseController>
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
+        int layer_mask = LayerMask.GetMask("Grid");
 
-        if(Physics.Raycast(ray, out hit, Mathf.Infinity))
+        if(Physics.Raycast(ray, out hit, Mathf.Infinity, layer_mask))
         {
             if(mouseButton == 0)
             {
