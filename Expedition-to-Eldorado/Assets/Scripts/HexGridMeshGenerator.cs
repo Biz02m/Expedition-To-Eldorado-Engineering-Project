@@ -136,11 +136,18 @@ public class HexGridMeshGenerator : MonoBehaviour
 
     private void OnLeftMouseClick(RaycastHit hit)
     {
+        //var script : HexGrid = hit.transform.GetComponent(HexGrid);
+        //var gameObj = hit.collider.gameObject;
+        HexGrid grid = hit.transform.GetComponent<HexGrid>();
         Debug.Log("Hit object: " + hit.transform.name + " at position " + hit.point);
         float localX = hit.point.x - hit.transform.position.x;
         float localZ = hit.point.z - hit.transform.position.z;
         // Debug.Log("Hex position: " + HexMetrics.CoordinateToAxial(localX, localZ, grid.HexSize, grid.Orientation));
-        Debug.Log("Axial position: " + HexMetrics.CoordinateToAxial(localX, localZ, hexGrid.HexSize, hexGrid.Orientation));
+        int x = (int)HexMetrics.CoordinateToAxial(localX, localZ, hexGrid.HexSize, hexGrid.Orientation).x;
+        int z = (int)HexMetrics.CoordinateToAxial(localX, localZ, hexGrid.HexSize, hexGrid.Orientation).y;
+        TerrainType terrain = BoardSingleton.instance.TerrainTypes[BoardSingleton.instance.Pieces[grid.BoardPiece][z][x]];
+        Debug.Log("Position:\tBoardPiece " + grid.BoardPiece + "\tCords (" + x + ", " + z + ")" +
+            "\n\t    TerrainType:\t" + terrain.name);
     }
 
     private void OnRightMouseClick(RaycastHit hit)
