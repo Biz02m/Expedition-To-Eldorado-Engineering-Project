@@ -14,9 +14,10 @@ namespace GeneralEnumerations
 
     public enum ViewTypes
     {
-        BoardOnly,
         CardsOnly,
         BoardCards,
-        Shop
+        BoardOnly,
+        Shop,
+        NumOfViewTypes
     }
 }

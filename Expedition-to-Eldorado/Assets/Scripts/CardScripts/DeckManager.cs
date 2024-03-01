@@ -12,7 +12,7 @@ public class DeckManager : MonoBehaviour
     [SerializeField] double spaceBetweenCard = 5; 
     [SerializeField] List<GameObject> starterCardPack;
     int viewNumber = (int)ViewTypes.CardsOnly; 
-    [SerializeField] int numberOfCardsOnHand = 7; //zostawilem na wypadek gdybysmy chcieli to zmienic
+    [SerializeField] int numberOfCardsOnHand = 4; //zostawilem na wypadek gdybysmy chcieli to zmienic
     int cursor = -1;
     //Obecnie tworzony jest widok 3 - widok na karty
 
@@ -43,6 +43,8 @@ public class DeckManager : MonoBehaviour
                 break;
             case (int)ViewTypes.BoardOnly: //w kontekscie kart sa podobne
             case (int)ViewTypes.Shop:
+                viewModifierY = -40;
+                viewModifierZ = 0;
                 break;
         }
 
@@ -76,6 +78,11 @@ public class DeckManager : MonoBehaviour
             cardsOnHand[i].transform.position = Vector3.Lerp(cardsOnHand[i].transform.position, cardPosition[i], speedOfCard * Time.deltaTime);
         }
 
+    }
+
+    public void changeView(ViewTypes type)
+    {
+        this.viewNumber = (int)type;
     }
 
     private void handlePlayerInput()
