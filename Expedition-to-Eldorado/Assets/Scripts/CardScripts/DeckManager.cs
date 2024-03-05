@@ -10,7 +10,7 @@ public class DeckManager : MonoBehaviour
     [SerializeField] List<GameObject> cardsOnHand;
     [SerializeField] float speedOfCard = 5;
     [SerializeField] double spaceBetweenCard = 5; 
-    [SerializeField] List<GameObject> starterCardPack;
+    [SerializeField] GameObject[] starterCardPack = new GameObject[3];
     int viewNumber = (int)ViewTypes.CardsOnly; 
     [SerializeField] int numberOfCardsOnHand = 4; //zostawilem na wypadek gdybysmy chcieli to zmienic
     int cursor = -1;
@@ -120,9 +120,15 @@ public class DeckManager : MonoBehaviour
 
     private void starterPackSelection()
     {
-        for (int i = 0; i < numberOfCardsOnHand; i++)
+        /*for (int i = 0; i < numberOfCardsOnHand; i++)
         {
             int index = Random.Range(0, starterCardPack.Count);
+            cardsInDeck.Add(Instantiate(starterCardPack[index]));
+            cardsInDeck[i].SetActive(false);
+        }*/
+
+        for (int i = 4; i > 0; i--)
+        {
             cardsInDeck.Add(Instantiate(starterCardPack[index]));
             cardsInDeck[i].SetActive(false);
         }
