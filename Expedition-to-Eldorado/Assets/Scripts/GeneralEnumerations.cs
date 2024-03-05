@@ -7,9 +7,9 @@ namespace GeneralEnumerations
     //zdecydujcie czy wolicie po kolorze czy po nazwie
     public enum CardTypes
     {
-        blue,
-        green,
-        yellow
+        Turystka,
+        Globtroter,
+        Marynarz
     }
 
     public enum ViewTypes
